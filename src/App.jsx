@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="mt-12">
+      {/* <div className="mt-12"> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/call-for-papers" element={<CallForPapers />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/conference-partners" element={<ConferencePartners />} />
         <Route path="/speakers" element={<Speakers />} />
       </Routes>
-      </div>
+      {/* </div> */}
 
       <div className='px-12 mt-8'>
 

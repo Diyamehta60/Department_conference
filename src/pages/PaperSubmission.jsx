@@ -3,7 +3,7 @@ import { FaFileUpload, FaRegPaperPlane, FaCalendarAlt } from 'react-icons/fa';
 
 const PaperSubmission = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-12">
+    <div className="min-h-screen bg-gray-100 py-12 mt-12">
       <div className="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-xl">
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-red-600 mb-8">

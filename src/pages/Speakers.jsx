@@ -35,7 +35,7 @@ const Speakers = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-red-50 to-gray-100 text-gray-800">
+    <div className="min-h-screen mt-12 bg-gradient-to-b from-red-50 to-gray-100 text-gray-800">
       <div className="max-w-7xl mx-auto py-12 px-6">
         <h1 className="text-4xl font-extrabold text-red-600 text-center mb-12">
           Our Esteemed Speakers

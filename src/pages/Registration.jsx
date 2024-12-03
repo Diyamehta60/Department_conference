@@ -2,7 +2,7 @@ import React from 'react';
 
 const Registration = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-12">
+    <div className="min-h-screen mt-12 bg-gray-100 py-12">
       <div className="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-xl">
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-red-600 mb-8">
