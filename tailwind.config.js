@@ -15,6 +15,10 @@ export default {
           "100%": { transform: "translateX(-100%)" },
         },
       },
+      fontFamily: {
+        heading: ['Merriweather', 'serif'],
+        body: ['Lato', 'sans-serif'],
+    },
     },
     
   },
