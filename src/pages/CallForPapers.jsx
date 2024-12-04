@@ -82,19 +82,19 @@ const CallForPapers = () => {
           <div className="space-y-4 text-lg text-gray-600">
             <div className="flex items-center">
               <FaFileAlt className="text-red-600 mr-3" />
-              <span>All submissions must be in **PDF format**.</span>
+              <span>All submissions must be in PDF format.</span>
             </div>
             <div className="flex items-center">
               <FaFileAlt className="text-red-600 mr-3" />
-              <span>The paper should not exceed **8 pages**.</span>
+              <span>The paper should not exceed 8 pages.</span>
             </div>
             <div className="flex items-center">
               <FaFileAlt className="text-red-600 mr-3" />
-              <span>Use the **IEEE Conference Template** for formatting.</span>
+              <span>Use the IEEE Conference Template for formatting.</span>
             </div>
             <div className="flex items-center">
               <FaFileAlt className="text-red-600 mr-3" />
-              <span>Ensure to follow the **double-blind review policy**.</span>
+              <span>Ensure to follow the double-blind review policy.</span>
             </div>
           </div>
         </div>

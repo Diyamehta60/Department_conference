@@ -15,7 +15,7 @@ function Footer() {
         ICNCDA
       </a>
       <span className="block text-sm text-center text-gray-500">
-        © 2021-2022 ICNCDA. All Rights Reserved. Built with
+        © 2024-2025 ICNCDA. All Rights Reserved. Built with
         <a href="https://flowbite.com" className="text-purple-600 hover:underline">
           ICNCDA
         </a>{" "}
@@ -26,8 +26,9 @@ function Footer() {
         >
           ICNCDA
         </a>
-        .
+        
       </span>
+      <span className='text-start'>Created By:Diya Mehat</span>
       <ul className="flex justify-center mt-5 space-x-5">
         <li>
           <a href="#" className="text-gray-500 hover:text-gray-900">
