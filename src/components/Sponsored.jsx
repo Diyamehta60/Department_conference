@@ -5,7 +5,7 @@ function Sponsored() {
     <div className="mb-8 w-full overflow-hidden mt-8">
       <h2
         className={
-          "mb-10 text-center text-lg font-bold lg:text-center lg:text-2xl"
+          "mb-10 text-center text-lg font-bold lg:text-center lg:text-2xl text-red-600"
         }
       >
         Technically Co-Sponsored by
@@ -19,7 +19,7 @@ function Sponsored() {
               alt="First image"
             />
           </div>
-          <p className="my-4">Indian Society for Technical Education</p>
+          <p className="my-4 ">Indian Society for Technical Education</p>
         </div>
         <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
           <div className="flex justify-center">

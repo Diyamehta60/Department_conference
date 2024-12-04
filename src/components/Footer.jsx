@@ -10,21 +10,21 @@ function Footer() {
         <img
           src="/clglogo.png"
           className="h-12 mr-3 sm:h-10"
-          alt="ICISC"
+          alt="ICNCDA"
         />
-        ICISC
+        ICNCDA
       </a>
       <span className="block text-sm text-center text-gray-500">
-        © 2021-2022 ICISC. All Rights Reserved. Built with
+        © 2021-2022 ICNCDA. All Rights Reserved. Built with
         <a href="https://flowbite.com" className="text-purple-600 hover:underline">
-          ICISC
+          ICNCDA
         </a>{" "}
         and
         <a
           href="https://tailwindcss.com"
           className="text-purple-600 hover:underline"
         >
-          ICISC
+          ICNCDA
         </a>
         .
       </span>
