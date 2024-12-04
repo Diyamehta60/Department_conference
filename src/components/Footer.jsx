@@ -28,7 +28,7 @@ function Footer() {
         </a>
         
       </span>
-      <span className='text-start'>Created By:Diya Mehat</span>
+      <span className='text-start'>Created By:Diya Mehta</span>
       <ul className="flex justify-center mt-5 space-x-5">
         <li>
           <a href="#" className="text-gray-500 hover:text-gray-900">
