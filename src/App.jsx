@@ -28,10 +28,7 @@ function App() {
       </Routes>
       {/* </div> */}
 
-      <div className=' mt-8 '>
-
-        <Footer />
-      </div>
+      <Footer />
     </BrowserRouter>
   );
 }

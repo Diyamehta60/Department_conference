@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="text-center bg-red-100/40 py-4">
+    <div className="text-center bg-red-100/40 py-6">
       <a
         href="#"
         className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900"
