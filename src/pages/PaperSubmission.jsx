@@ -4,66 +4,136 @@ import { FaFileUpload, FaRegPaperPlane, FaCalendarAlt } from 'react-icons/fa';
 const PaperSubmission = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-12 mt-12">
-      <div className="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-xl">
+      <div className="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-lg">
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-red-600 mb-8">
-          Submit Your Paper for ICNCDA-2025
+          Paper Submission - ICNCDA-2025
         </h1>
 
-        {/* Paper Submission Details Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Paper Submission Overview */}
-          <div className="space-y-6">
-            <h2 className="text-2xl font-semibold text-gray-700">Why Submit Your Paper?</h2>
-            <p className="text-lg text-gray-600">
-              ICNCDA-2025 offers an excellent platform for researchers, academics, and professionals in the field of networked computing and data analytics.
-              Submitting your paper gives you the chance to present your work at a premier conference and engage with the global academic community.
-            </p>
+        {/* Overview Section */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Why Submit Your Paper?</h2>
+          <p className="text-lg text-gray-600">
+            ICNCDA-2025 offers an international platform for researchers to present their work in
+            networked computing and data analytics. Be a part of this prestigious conference and
+            engage with global experts in the field.
+          </p>
+        </section>
 
-            {/* Submission Process */}
+        {/* Publishing Models */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Publishing Models</h2>
+          <div className="space-y-4 text-gray-600">
             <div className="bg-red-50 p-4 rounded-lg">
-              <h3 className="text-xl font-semibold text-red-600">Paper Submission Process:</h3>
-              <ol className="list-decimal pl-5 text-gray-600">
-                <li>Step 1: Prepare your manuscript following the provided guidelines</li>
-                <li>Step 2: Create an account (if you don't have one already)</li>
-                <li>Step 3: Submit your paper through the online submission system</li>
-                <li>Step 4: Wait for peer review and acceptance notification</li>
-                <li>Step 5: If accepted, finalize your registration for the conference</li>
-              </ol>
+              <h3 className="text-xl font-semibold text-red-600">Free Publishing</h3>
+              <ul className="list-disc pl-5">
+                <li>
+                  <strong>ACM Open Program Institutions:</strong> Authors from institutions in the{' '}
+                  <a
+                    href="https://libraries.acm.org/acmopen/open-participants"
+                    className="text-red-600 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ACM Open Program
+                  </a>{' '}
+                  can publish for free.
+                </li>
+                <li>
+                  <strong>Low-Income Countries:</strong> Papers from authors in eligible low-income
+                  countries are also free.
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold text-red-600">APC Paid Publication Rates</h3>
+              <ul className="list-disc pl-5">
+                <li>
+                  $350 for lower-middle-income countries with at least one ACM member author (50%
+                  waivers available).
+                </li>
+                <li>
+                  $500 for lower-middle-income countries without ACM member authors (50% waivers
+                  available).
+                </li>
+              </ul>
+              <p>
+                Learn more about{' '}
+                <a
+                  href="https://www.acm.org/publications/openaccess#waivers"
+                  className="text-red-600 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ACM waivers and discounts
+                </a>
+                .
+              </p>
             </div>
           </div>
+        </section>
 
-          {/* Submission Guidelines */}
-          <div className="space-y-6">
-            <h2 className="text-2xl font-semibold text-gray-700">Submission Guidelines</h2>
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <FaFileUpload className="text-red-600 mr-3" />
-                <span className="text-lg text-gray-600">File Format: PDF</span>
-              </div>
-              <div className="flex items-center">
-                <FaRegPaperPlane className="text-red-600 mr-3" />
-                <span className="text-lg text-gray-600">Paper Length: Maximum 8 pages</span>
-              </div>
-              <div className="flex items-center">
-                <FaCalendarAlt className="text-red-600 mr-3" />
-                <span className="text-lg text-gray-600">Deadline: February 28, 2025</span>
-              </div>
-            </div>
+        {/* Submission Guidelines */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Submission Guidelines</h2>
+          <ul className="list-disc pl-5 space-y-2 text-gray-600">
+            <li>
+              Use the official templates for submission: &nbsp;
+              <a
+                href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx"
+                className="text-red-600 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Word Template
+              </a>
+              &nbsp; | &nbsp;
+              <a
+                href="https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip"
+                className="text-red-600 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LaTeX Template
+              </a>
+            </li>
+            <li>Maximum paper length: 6 pages.</li>
+            <li>Ensure a similarity score below 10%.</li>
+          </ul>
+          <div className="flex items-center mt-4">
+            <FaCalendarAlt className="text-red-600 mr-2" />
+            <span className="text-lg text-gray-600">
+              Submission Deadline: <strong>February 28, 2025</strong>
+            </span>
           </div>
-        </div>
+        </section>
 
-        {/* Call-to-Action Section */}
-        <div className="mt-12 text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">
+        {/* Review Process */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Review Process</h2>
+          <p className="text-gray-600">
+            Papers with a similarity score below 10% will undergo a double-blind review by the
+            technical committee. Outcomes include:
+          </p>
+          <ul className="list-disc pl-5 mt-2 text-gray-600">
+            <li>Accepted for oral presentation.</li>
+            <li>Accepted with minor corrections.</li>
+            <li>Rejected.</li>
+          </ul>
+        </section>
+
+        {/* Call to Action */}
+        <div className="text-center mt-12">
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Ready to Submit Your Paper?
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Don’t miss the opportunity to be part of the prestigious ICNCDA-2025 conference. Submit your research today and contribute to advancing the field!
+            Don’t miss this opportunity to contribute to ICNCDA-2025. Click below to start the
+            submission process!
           </p>
           <a
-            href="/submit-paper" // Link to your actual submission portal
-            className="inline-block py-3 px-6 bg-red-600 text-white text-lg font-semibold rounded-full hover:bg-red-700 transition duration-300"
+            href="/submit-paper" // Update with the actual submission portal link
+            className="py-3 px-6 bg-red-600 text-white text-lg font-semibold rounded-full hover:bg-red-700 transition duration-300"
           >
             Submit Paper Now
           </a>

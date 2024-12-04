@@ -5,37 +5,26 @@ const Speakers = () => {
     {
       name: "Dr. John Doe",
       title: "Professor of Computer Science",
-      image: "https://via.placeholder.com/200x200.png?text=Dr.+John+Doe",
+      image: "/gallery/special_sessions_old/ASHISH.jpg",
       bio: "Dr. John Doe is a leading researcher in Networked Computing and has published over 50 papers in renowned journals.",
     },
     {
       name: "Dr. Jane Smith",
       title: "CEO of InnovateAI",
-      image: "https://via.placeholder.com/200x200.png?text=Dr.+Jane+Smith",
+      image: "/gallery/special_sessions_old/ASuresh.jpg",
       bio: "Dr. Jane Smith has over 20 years of experience in AI and Data Analytics, pioneering advancements in machine learning models.",
     },
     {
       name: "Prof. Alan Walker",
       title: "Head of Data Science at DataSolutions",
-      image: "https://via.placeholder.com/200x200.png?text=Prof.+Alan+Walker",
+      image: "/gallery/special_sessions_old/Udendhran.jpg",
       bio: "Prof. Alan Walker is a distinguished educator and industry expert in data science, specializing in big data processing.",
     },
-    {
-      name: "Dr. Emily Clark",
-      title: "Researcher in Network Security",
-      image: "https://via.placeholder.com/200x200.png?text=Dr.+Emily+Clark",
-      bio: "Dr. Emily Clark's research focuses on network security protocols and data protection in IoT environments.",
-    },
-    {
-      name: "Prof. Mark Wilson",
-      title: "Director of Cloud Computing, TechCorp",
-      image: "https://via.placeholder.com/200x200.png?text=Prof.+Mark+Wilson",
-      bio: "Prof. Mark Wilson has been at the forefront of cloud technologies, working on scalable, distributed cloud infrastructure.",
-    },
+    
   ];
 
   return (
-    <div className="min-h-screen mt-12 bg-gradient-to-b from-red-50 to-gray-100 text-gray-800">
+    <div className="min-h-screen mt-14 bg-gradient-to-b from-red-50 to-gray-100 text-gray-800">
       <div className="max-w-7xl mx-auto py-12 px-6">
         <h1 className="text-4xl font-extrabold text-red-600 text-center mb-12">
           Our Esteemed Speakers

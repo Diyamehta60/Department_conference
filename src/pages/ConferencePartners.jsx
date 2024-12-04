@@ -1,44 +1,46 @@
 import React from "react";
+import Sponser2 from "../components/Sponser2";
 
 const ConferencePartners = () => {
-  const partners = [
-    { name: "TechCorp", logo: "https://via.placeholder.com/200x100.png?text=TechCorp+Logo" },
-    { name: "DataSolutions", logo: "https://via.placeholder.com/200x100.png?text=DataSolutions+Logo" },
-    { name: "InnovateAI", logo: "https://via.placeholder.com/200x100.png?text=InnovateAI+Logo" },
-    { name: "NetAnalytics", logo: "https://via.placeholder.com/200x100.png?text=NetAnalytics+Logo" },
-    { name: "NextGenTech", logo: "https://via.placeholder.com/200x100.png?text=NextGenTech+Logo" },
-    { name: "CloudX", logo: "https://via.placeholder.com/200x100.png?text=CloudX+Logo" },
-  ];
-
   return (
-    <div className="min-h-screen mt-12 bg-gradient-to-b from-red-50 to-gray-100 text-gray-800">
+    <div className="min-h-screen mt-14 bg-gradient-to-b from-red-50 to-gray-100 text-gray-800">
       <div className="max-w-7xl mx-auto py-12 px-6">
         <h1 className="text-4xl font-extrabold text-red-600 text-center mb-12">
           Conference Partners
         </h1>
         <section>
-          <h2 className="text-3xl font-semibold mb-6 text-gray-700">
-            Our Esteemed Partners
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {partners.map((partner, index) => (
-              <div
-                key={index}
-                className="p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-2"
-              >
-                <div className="flex justify-center items-center">
-                  <img
-                    src={partner.logo}
-                    alt={partner.name}
-                    className="w-full h-auto object-contain max-h-32"
-                  />
-                </div>
-                <div className="mt-4 text-center">
-                  <h3 className="text-xl font-bold">{partner.name}</h3>
-                </div>
-              </div>
-            ))}
-          </div>
+          <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+          <h1 className="text-3xl font-bold text-red-500 text-center my-12">
+            Introducing with great excitement: ICNCDA 2025, in partnership with IIIT Nagpur, Asia University Taiwan, and Namibia University.
+          </h1>
+          <p className="text-center text-lg text-gray-600 mb-12">
+            “This groundbreaking event marks a new era of innovation, collaboration, and knowledge exchange. Join us as we unveil a remarkable conference experience that will shape the future of technology and academia.”
+          </p>
+
+          <Sponser2 />
+
+          <ul className="my-12 space-y-6">
+            <li className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-red-500 mb-4">1. IIIT Nagpur</h3>
+              <p className="text-gray-600">
+                Indian Institute of Information Technology Nagpur is a prestigious institution of higher education in the field of Information Technology and Computer Science. It is one of the leading institutes in India dedicated to fostering excellence in education, research, and innovation. With a focus on providing industry-relevant curriculum, state-of-the-art facilities, and a vibrant academic environment, IIIT Nagpur aims to nurture the next generation of technocrats and leaders in the IT industry.
+              </p>
+            </li>
+
+            <li className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-red-500 mb-4">2. Asia University</h3>
+              <p className="text-gray-600">
+                Asia University, located in Taiwan, is a prestigious institution renowned for its commitment to academic excellence and innovative research. With a diverse and vibrant campus community, Asia University offers a wide range of undergraduate and graduate programs in various fields. With a focus on global perspectives, interdisciplinary learning, and practical skills development, Asia University prepares students to excel in their chosen careers and make a positive impact in the world.
+              </p>
+            </li>
+
+            <li className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-red-500 mb-4">3. Namibia University</h3>
+              <p className="text-gray-600">
+                Namibia University provides exceptional education and a vibrant learning community. This institution is dedicated to nurturing intellectual growth, fostering critical thinking skills, and promoting a spirit of innovation. With a wide range of academic programs, state-of-the-art facilities, and a supportive faculty, Namibia University empowers students to become future leaders and contribute positively to society. The Namibia University provides a transformative educational journey, where knowledge meets opportunity.
+              </p>
+            </li>
+          </ul>
         </section>
       </div>
     </div>

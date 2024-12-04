@@ -5,7 +5,7 @@ const Publications = () => {
     {
       title: "Research on Networked Computing in Modern Systems",
       authors: "John Doe, Jane Smith, Alan Walker",
-      year: 2024,
+      year: 2025,
       link: "https://example.com/publication1",
       image: "https://via.placeholder.com/200x200.png?text=Publication+1",
       summary: "This paper explores the latest advancements in networked computing and its applications in modern systems, with a focus on scalability and performance.",

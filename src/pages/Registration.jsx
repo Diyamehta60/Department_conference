@@ -18,37 +18,68 @@ const Registration = () => {
 
         {/* Registration Categories Table */}
         <div className="overflow-x-auto mb-12">
-          <table className="min-w-full table-auto text-center border-collapse">
-            <thead className="bg-red-600 text-white">
+          <table className="min-w-full table-auto text-center border-collapse border border-gray-200">
+            <thead className="bg-red-600 text-white text-left">
               <tr>
-                <th className="py-3 px-6 text-lg font-semibold">Category</th>
-                <th className="py-3 px-6 text-lg font-semibold">Early Bird Registration</th>
-                <th className="py-3 px-6 text-lg font-semibold">Regular Registration</th>
-                <th className="py-3 px-6 text-lg font-semibold">Late Registration</th>
+                <th className="py-3 px-6 text-lg font-semibold border border-gray-200">Category</th>
+                <th className="py-3 px-6 text-lg font-semibold border border-gray-200">Early Bird Registration</th>
+                <th className="py-3 px-6 text-lg font-semibold border border-gray-200">Regular Registration</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t border-gray-200">
-                <td className="py-4 px-6 text-gray-800 font-medium">Student</td>
-                <td className="py-4 px-6 text-gray-600">$100</td>
-                <td className="py-4 px-6 text-gray-600">$150</td>
-                <td className="py-4 px-6 text-gray-600">$200</td>
-              </tr>
-              <tr className="border-t border-gray-200">
-                <td className="py-4 px-6 text-gray-800 font-medium">Academician</td>
-                <td className="py-4 px-6 text-gray-600">$150</td>
-                <td className="py-4 px-6 text-gray-600">$200</td>
-                <td className="py-4 px-6 text-gray-600">$250</td>
-              </tr>
-              <tr className="border-t border-gray-200">
-                <td className="py-4 px-6 text-gray-800 font-medium">Industry Professional</td>
-                <td className="py-4 px-6 text-gray-600">$250</td>
-                <td className="py-4 px-6 text-gray-600">$300</td>
-                <td className="py-4 px-6 text-gray-600">$350</td>
-              </tr>
+              {[
+                ["Faculty Member (International Professional Membership)", "INR 4,000", "INR 5,000"],
+                ["Faculty (International Professional Membership) With International co-Author", "INR 3,000", "INR 4,000"],
+                ["Faculty International Author and Member (International Professional Membership)", "$100", "$130"],
+                ["Faculty Non-Member (International Professional Membership)", "INR 5,000", "INR 6,000"],
+                ["Faculty Non-Member (International Professional Membership) with International co-Author", "INR 4,000", "INR 5,000"],
+                ["International Author Non-Member (International Professional Membership)", "$150", "$200"],
+                ["Corporate/Industry Professional", "INR 6,000", "INR 7,000"],
+                ["Ph.D Student", "INR 3,500", "INR 4,500"],
+                ["PG/UG Student", "INR 3,000", "INR 3,500"],
+                ["Attendee", "INR 1,000", "INR 2,000"],
+              ].map(([category, earlyBird, regular], index) => (
+                <tr
+                  key={index}
+                  className={`border-t text-left border-gray-200 ${index % 2 === 0 ? "bg-gray-50" : ""}`}
+                >
+                  <td className="py-4 px-6 text-gray-800 font-medium border border-gray-200">{category}</td>
+                  <td className="py-4 px-6 text-gray-600 border border-gray-200">{earlyBird}</td>
+                  <td className="py-4 px-6 text-gray-600 border border-gray-200">{regular}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
+        <div className="bg-red-50 p-8 rounded-lg shadow-md mb-12 border-t-4 border-red-600">
+  <h2 className="text-2xl font-bold text-gray-800 mb-4">Account Details</h2>
+  <p className="text-base text-gray-700 mb-6">
+    <strong className="text-red-600">Note:</strong> No paper is allowed to have more than 5 authors. Please ensure all payments are made to the account details below:
+  </p>
+  <div className="space-y-4">
+    <div className="flex justify-start items-center border-b pb-2">
+      <span className="font-semibold text-gray-800 mr-2">Account Name:</span>
+      <span className="text-gray-600">POORNIMA INSTITUTE PART ONE</span>
+    </div>
+    <div className="flex justify-start items-center border-b pb-2">
+      <span className="font-semibold text-gray-800 mr-2">Account Number:</span>
+      <span className="text-gray-600">50200067728610</span>
+    </div>
+    <div className="flex justify-start items-center border-b pb-2">
+      <span className="font-semibold text-gray-800 mr-2">Bank:</span>
+      <span className="text-gray-600">HDFC BANK LTD., F-129 RIICO Industrial Area, Sitapura, Jaipur</span>
+    </div>
+    <div className="flex justify-start items-center border-b pb-2">
+      <span className="font-semibold text-gray-800 mr-2">IFSC Code:</span>
+      <span className="text-gray-600">HDFC0003873</span>
+    </div>
+    <div className="flex justify-start items-center ">
+      <span className="font-semibold text-gray-800 mr-2">SWIFT Code:</span>
+      <span className="text-gray-600">HDFCINBBXXX</span>
+    </div>
+  </div>
+</div>
+
 
         {/* Payment Methods Section */}
         <div className="bg-red-50 p-6 rounded-lg shadow-sm mb-12">

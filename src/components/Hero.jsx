@@ -5,10 +5,10 @@ function Hero() {
     return (
         <div className="w-full h-screen bg-[url('/clg3.jpg')] bg-center bg-cover bg-no-repeat">
             
-            <div className="absolute bg-gray-500/40 py-4 px-8 md:top-[45%] sm:top-[60%] left-1/2 transform -translate-x-1/2 text-center rounded-lg">
+            <div className="absolute bg-red-100/40 py-4 px-8 md:top-[45%] sm:top-[60%] left-1/2 transform -translate-x-1/2 text-center rounded-lg">
                 <h1 className='className="font-heading text-4xl  text-white font-extrabold leading-tight'>Welcome to the official website of </h1>
                 <h1 className="font-heading text-3xl text-white text-center font-light leading-tight">
-                International Conference on Networked Computing and Data Analytics (ICNCDA-2025)
+                1st International Conference on Networked Computing and Data Analytics (ICNCDA-2025)
                 </h1>
                 <div className="flex justify-center items-center mt-4 text-white">
                     <FaCalendarAlt className="mr-2" />
@@ -16,6 +16,9 @@ function Hero() {
                         23rd & 24th March, 2025
                     </span>
                 </div>
+                    <h2 className="font-body text-lg text-white">
+                        Department of Computer Engineering
+                    </h2>
                 <div className="flex justify-center items-center mt-2 text-white">
                     <FaMapMarkerAlt className="mr-2" />
                     <span className="font-body text-lg">

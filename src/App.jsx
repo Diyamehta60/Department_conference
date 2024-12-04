@@ -28,7 +28,7 @@ function App() {
       </Routes>
       {/* </div> */}
 
-      <div className='px-12 mt-8'>
+      <div className=' mt-8 '>
 
         <Footer />
       </div>

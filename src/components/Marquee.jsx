@@ -12,7 +12,7 @@ const Marquee = () => {
       style={{ animationDelay: "0s" }}
     >
       <div className="inline-block animate-marquee px-4 text-xl text-black">
-        Important: New ACM Open Access publishing model for ICIMMI-2024. Free
+        Important: New ACM Open Access publishing model for ICNCDA-2025. Free
         publishing options available for eligible authors. Discounted APC rates
         for lower-middle-income countries.
       </div>
