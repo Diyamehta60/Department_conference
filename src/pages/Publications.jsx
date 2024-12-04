@@ -52,9 +52,10 @@ const Publications = () => {
         </h1>
         <section>
           <h2 className="text-3xl font-semibold mb-6 text-gray-700">
-            Recent Research Papers
+            {/* Recent Research Papers */}
+            <h1>Will Be Announcing Soon</h1>
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
             {publications.map((publication, index) => (
               <div
                 key={index}
@@ -87,7 +88,7 @@ const Publications = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </section>
       </div>
     </div>

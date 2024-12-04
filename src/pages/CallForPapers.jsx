@@ -34,6 +34,22 @@ const CallForPapers = () => {
             <li>Distributed Systems and Blockchain Technologies</li>
             <li>Data Visualization and Interactive Systems</li>
             <li>Data Mining and Pattern Recognition</li>
+            <li>Data Analytics in IoT and Smart Systems</li>
+            <li>Machine Learning and Artificial Intelligence in Networking</li>
+            <li>Cloud Computing and Edge Computing</li>
+            <li>Big Data Processing and Optimization</li>
+            <li>Network Security and Cryptography</li>
+            <li>Distributed Systems and Blockchain Technologies</li>
+            <li>Data Visualization and Interactive Systems</li>
+            <li>Data Mining and Pattern Recognition</li>
+            <li>Network Traffic Analysis and Management</li>
+            <li>5G Networks and Beyond</li>
+            <li>Quantum Computing for Networked Systems</li>
+            <li>Smart Grids and Energy Systems</li>
+            <li>Real-Time Data Streaming and Analytics</li>
+            <li>Next-Generation Wireless Networks</li>
+            <li>Autonomous Systems and Networking</li>
+
           </ul>
         </div>
 

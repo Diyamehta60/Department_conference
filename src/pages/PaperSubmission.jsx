@@ -23,7 +23,7 @@ const PaperSubmission = () => {
         {/* Publishing Models */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Publishing Models</h2>
-          <div className="space-y-4 text-gray-600">
+          {/* <div className="space-y-4 text-gray-600">
             <div className="bg-red-50 p-4 rounded-lg">
               <h3 className="text-xl font-semibold text-red-600">Free Publishing</h3>
               <ul className="list-disc pl-5">
@@ -70,7 +70,8 @@ const PaperSubmission = () => {
                 .
               </p>
             </div>
-          </div>
+          </div> */}
+          <h1>Will Be Announcing Soon</h1>
         </section>
 
         {/* Submission Guidelines */}

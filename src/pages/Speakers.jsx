@@ -3,23 +3,23 @@ import React from "react";
 const Speakers = () => {
   const speakers = [
     {
-      name: "Dr. John Doe",
+      name: "Dr. Dharam singh",
       title: "Professor of Computer Science",
       image: "/gallery/special_sessions_old/ASHISH.jpg",
       bio: "Dr. John Doe is a leading researcher in Networked Computing and has published over 50 papers in renowned journals.",
     },
-    {
-      name: "Dr. Jane Smith",
-      title: "CEO of InnovateAI",
-      image: "/gallery/special_sessions_old/ASuresh.jpg",
-      bio: "Dr. Jane Smith has over 20 years of experience in AI and Data Analytics, pioneering advancements in machine learning models.",
-    },
-    {
-      name: "Prof. Alan Walker",
-      title: "Head of Data Science at DataSolutions",
-      image: "/gallery/special_sessions_old/Udendhran.jpg",
-      bio: "Prof. Alan Walker is a distinguished educator and industry expert in data science, specializing in big data processing.",
-    },
+    // {
+    //   name: "Dr. Jane Smith",
+    //   title: "CEO of InnovateAI",
+    //   image: "/gallery/special_sessions_old/ASuresh.jpg",
+    //   bio: "Dr. Jane Smith has over 20 years of experience in AI and Data Analytics, pioneering advancements in machine learning models.",
+    // },
+    // {
+    //   name: "Prof. Alan Walker",
+    //   title: "Head of Data Science at DataSolutions",
+    //   image: "/gallery/special_sessions_old/Udendhran.jpg",
+    //   bio: "Prof. Alan Walker is a distinguished educator and industry expert in data science, specializing in big data processing.",
+    // },
     
   ];
 

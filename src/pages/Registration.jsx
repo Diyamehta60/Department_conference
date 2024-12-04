@@ -28,15 +28,15 @@ const Registration = () => {
             </thead>
             <tbody>
               {[
-                ["Faculty Member (International Professional Membership)", "INR 4,000", "INR 5,000"],
-                ["Faculty (International Professional Membership) With International co-Author", "INR 3,000", "INR 4,000"],
+                ["Faculty Member (International Professional Membership)", "INR 6,000", "INR 8,000"],
+                ["Faculty (International Professional Membership) With International co-Author", "INR 5,000", "INR 7,000"],
                 ["Faculty International Author and Member (International Professional Membership)", "$100", "$130"],
-                ["Faculty Non-Member (International Professional Membership)", "INR 5,000", "INR 6,000"],
-                ["Faculty Non-Member (International Professional Membership) with International co-Author", "INR 4,000", "INR 5,000"],
+                ["Faculty Non-Member (International Professional Membership)", "INR 7,000", "INR 9,000"],
+                ["Faculty Non-Member (International Professional Membership) with International co-Author", "INR 6,000", "INR 8,000"],
                 ["International Author Non-Member (International Professional Membership)", "$150", "$200"],
-                ["Corporate/Industry Professional", "INR 6,000", "INR 7,000"],
-                ["Ph.D Student", "INR 3,500", "INR 4,500"],
-                ["PG/UG Student", "INR 3,000", "INR 3,500"],
+                ["Corporate/Industry Professional", "INR 8,000", "INR 9,000"],
+                ["Ph.D Student", "INR 5,500", "INR 7,500"],
+                ["PG/UG Student", "INR 2,000", "INR 2,500"],
                 ["Attendee", "INR 1,000", "INR 2,000"],
               ].map(([category, earlyBird, regular], index) => (
                 <tr

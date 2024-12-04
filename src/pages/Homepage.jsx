@@ -11,9 +11,6 @@ function Homepage() {
         <>
             <Hero />
             <div className='px-12 mt-2'>
-                <Marquee />
-            </div>
-            <div className='px-12 mt-2'>
                 <ImportantDates />
             </div>
             <div className='px-12 mt-2'>
