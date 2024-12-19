@@ -58,6 +58,7 @@ const Committees = () => {
         { name: "Dr. Manoj Kumar", role: "Professor, Delhi Technical University, Delhi" },
         { name: "Dr. Harish Sharma", role: "Associate Professor, RTU" },
         { name: "Dr. OP Verma", role: "Professor, DTU" },
+        { name: "Mr. Indra Kishor", role: "Assistant Professor, PIET, Jaipur" },
         { name: "Dr. Akash Saxena", role: "Professor, University Of Haryana" },
         { name: "Dr. Shruti Thapar", role: "Associate Professor, PIET, Jaipur" },
         { name: "Dr. Jasdeep Kaur Dhanoa", role: "Professor, IGDTUW" },

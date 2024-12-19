@@ -5,8 +5,8 @@ const Speakers = () => {
     {
       name: "Dr. Dharam singh",
       title: "Professor of Computer Science",
-      image: "/gallery/special_sessions_old/ASHISH.jpg",
-      bio: "Dr. John Doe is a leading researcher in Networked Computing and has published over 50 papers in renowned journals.",
+      // image: "/gallery/special_sessions_old/ASHISH.jpg",
+      // bio: "Dr. John Doe is a leading researcher in Networked Computing and has published over 50 papers in renowned journals.",
     },
     // {
     //   name: "Dr. Jane Smith",
@@ -42,7 +42,7 @@ const Speakers = () => {
                 <div className="flex justify-center items-center mb-4">
                   <img
                     src={speaker.image}
-                    alt={speaker.name}
+                    
                     className="w-40 h-40 object-cover rounded-full border-4 border-gray-200"
                   />
                 </div>
