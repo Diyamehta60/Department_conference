@@ -71,7 +71,7 @@ const CallForPapers = () => {
           <div className="flex items-center">
             <FaFileAlt className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Camera-Ready Submission: April 5, 2025
+              Camera-Ready Submission: April 14-15, 2025
             </span>
           </div>
         </div>
