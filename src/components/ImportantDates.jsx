@@ -34,15 +34,15 @@ const impDateData = [
   },
   {
     title: "Late Registration",
-    date: "April 10, 2025",
+    date: "April 1, 2025",
     subtitle: "Late Registration Deadline",
     isImportant: false,
   },
   {
     title: "Conference Dates",
-    date: "April 23-24, 2025",
+    date: "April 14-15, 2025",
     subtitle: "Event Dates",
-    isImportant: false,
+    isImportant: true,
   },
 ];
 
