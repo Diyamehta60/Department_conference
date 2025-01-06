@@ -99,6 +99,13 @@ const Speakers = () => {
         "image": "/keynote_speakers/Daniel-Dasig.png",
         "id": "14",
         "national": false
+    },
+    {
+        "name": "Rakesh M. Verma",
+        "designation": "Professor of Computer Science at University Of Houston ,Director of ReDAS Lab",
+        "image": "/keynote_speakers/Rakesh.jpg",
+        "id": "15",
+        "national": false
     }
 ];
 
