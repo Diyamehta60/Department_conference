@@ -386,10 +386,6 @@ const Committees = () => {
           role: "Bennett University, India",
         },
         {
-          name: "Dinesh Goyal",
-          role: "Poornima Institute of Engineering & Technology, Jaipur",
-        },
-        {
           name: "Dr. Amit Singhal",
           role: "Bennett University, Greater Noida",
         },
