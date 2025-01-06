@@ -5,137 +5,532 @@ const Committees = () => {
     {
       title: "Honorary Patron",
       members: [
-        { name: "Mr. Hari Singh", role: "Director (Infrastructure), Poornima Group, Jaipur" },
-        { name: "Mr. MKM Shah", role: "Director (Admin & Finance), Poornima Group, Jaipur" },
+        {
+          name: "Mr. Hari Singh",
+          role: "Director (Infrastructure), Poornima Group, Jaipur",
+        },
+        {
+          name: "Mr. MKM Shah",
+          role: "Director (Admin & Finance), Poornima Group, Jaipur",
+        },
       ],
     },
     {
       title: "Honorary Chair",
       members: [
-        { name: "Prof. Marcin Paprzycki", role: "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland" },
-        { name: "Prof. B.B. Gupta", role: "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan" },
-        { name: "Dr. Sugandha Singh", role: "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugram" },
+        {
+          name: "Prof. Marcin Paprzycki",
+          role: "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland",
+        },
+        {
+          name: "Prof. B.B. Gupta",
+          role: "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan",
+        },
+        {
+          name: "Dr. Sugandha Singh",
+          role: "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugram",
+        },
       ],
     },
     {
       title: "General Chair",
       members: [
-        { name: "Prof. Dharam Singh", role: "Namibia University of Science & Tech., Namibia" },
+        {
+          name: "Prof. Dharam Singh",
+          role: "Namibia University of Science & Tech., Namibia",
+        },
+        {
+          name: "Dr. JC Bansal",
+          role: "Professor, South Asian University",
+        },
       ],
     },
     {
       title: "Conference Chair",
       members: [
-        { name: "Dr. Dinesh Goyal", role: "Professor & Director, PIET, Jaipur" },
+        {
+          name: "Dr. Dinesh Goyal",
+          role: "Professor & Director, PIET, Jaipur",
+        },
+        { name: "Dr. Anil Kumar", role: "Professor & HoD CSE, PIET, Jaipur" },
       ],
     },
     {
       title: "Steering Committee",
       members: [
-        { name: "Dr. Carlos M. Travieso-Gonzalez", role: "Professor, Signals and Communication Department, University of Las Palmas de Gran Canaria, Spain" },
+        {
+          name: "Dr. Carlos M. Travieso-Gonzalez",
+          role: "Professor, Signals and Communication Department, University of Las Palmas de Gran Canaria, Spain",
+        },
       ],
     },
     {
       title: "Conference Co-Chair",
       members: [
-        { name: "Dr. Dinesh Goyal", role: "Professor & Director, PIET, Jaipur" },
-        { name: "Dr. Anil Kumar", role: "Professor & HoD CSE, PIET, Jaipur" },
+        {
+          name: "Dr. Navin Kumar Goyal",
+          role: "Associate Professor, PIET, Jaipur",
+        },
+        {
+          name: "Dr. Balwan Shesma",
+          role: "Associate Professor, PIET, Jaipur",
+        },
       ],
     },
     {
       title: "Organising Chair",
       members: [
-        { name: "Dr. Shalini Choudhary", role: "Associate Professor, PIET, Jaipur" },
-        { name: "Dr. Naveen Goyal", role: "Associate Professor, PIET, Jaipur" },
-        { name: "Dr. Sanjay Kumar Sinha", role: "Associate Professor, PIET, Jaipur" },
-        { name: "Dr. Shruti Thapar", role: "Associate Professor, PIET, Jaipur" },
+        {
+          name: "Dr. Sanjay Kumar Sinha",
+          role: "Associate Professor, PIET, Jaipur",
+        },
+        {
+          name: "Dr. Navin Kumar Goyal",
+          role: "Associate Professor, PIET, Jaipur",
+        },
+        {
+          name: "Dr. Shalini Choudhary",
+          role: "Associate Professor, PIET, Jaipur",
+        },
+        {
+          name: "Dr. Shruti Thapar",
+          role: "Associate Professor, PIET, Jaipur",
+        },
       ],
     },
     {
       title: "Technical Program Chair",
       members: [
-        { name: "Dr. Atul Gonsai", role: "Professor, Saurasthra University, Rajkot" },
-        { name: "Dr. Manoj Kumar", role: "Professor, Delhi Technical University, Delhi" },
+        {
+          name: "Dr. Atul Gonsai",
+          role: "Professor, Saurasthra University, Rajkot",
+        },
+        {
+          name: "Dr. Manoj Kumar",
+          role: "Professor, Delhi Technical University, Delhi",
+        },
         { name: "Dr. Harish Sharma", role: "Associate Professor, RTU" },
         { name: "Dr. OP Verma", role: "Professor, DTU" },
-        { name: "Mr. Indra Kishor", role: "Assistant Professor, PIET, Jaipur" },
         { name: "Dr. Akash Saxena", role: "Professor, University Of Haryana" },
-        { name: "Dr. Shruti Thapar", role: "Associate Professor, PIET, Jaipur" },
+        {
+          name: "Dr. Shruti Thapar",
+          role: "Associate Professor, PIET, Jaipur",
+        },
         { name: "Dr. Jasdeep Kaur Dhanoa", role: "Professor, IGDTUW" },
-        { name: "Mr. Vivek Saxena", role: "Assistant Professor, PIET, Jaipur" },
         { name: "Dr. Monika Agrawal", role: "Associate Professor, IIT, Delhi" },
         { name: "Prof. (Dr.) Rambilas", role: "Professor, IIT Indore" },
-        { name: "Dr. Sandeep Gupta", role: "Associate Professor, AI & DS, PIET, Jaipur" },
-        { name: "Dr. Dilip Singh Sisodia", role: "Associate Professor, Computer Science & Engineering, National Institute of Technology, Raipur, India" },
+        {
+          name: "Dr. Sandeep Gupta",
+          role: "Associate Professor, AI & DS, PIET, Jaipur",
+        },
+        {
+          name: "Dr. Dilip Singh Sisodia",
+          role: "Associate Professor, Computer Science & Engineering, National Institute of Technology, Raipur, India",
+        },
+        {
+          name: "Mr. Abhishek Dadhich",
+          role: "Assistant Professor, PIET, Jaipur",
+        },
+        {
+          name: "Ms. Shikha Gautam",
+          role: "Associate Professor, PIET, Jaipur",
+        },
+        { name: "Mr. Vivek Saxena", role: "Assistant Professor, PIET, Jaipur" },
+        { name: "Mr. Indra Kishor", role: "Assistant Professor, PIET, Jaipur" },
       ],
     },
     {
       title: "Editorial Committee",
       members: [
-        { name: "Dr. Dinesh Goyal", role: "Professor & Director, PIET, Jaipur" },
+        {
+          name: "Dr. Dinesh Goyal",
+          role: "Professor & Director, PIET, Jaipur",
+        },
+        { name: "Dr. Anil Kumar", role: "Professor & HoD CSE, PIET, Jaipur" },
+        {
+          name: "Prof. Milan Tuba",
+          role: "Head, AI, Singidunum University & Vice-Rector, Research at Sinergia University, Belgrade",
+        },
+        {
+          name: "Dr. Eva Tuba",
+          role: "Assistant Professor, Computer Science, Trinity University, San Antonio, TX, USA",
+        },
+        {
+          name: "Prof. Marcel Worring",
+          role: "Professor & Director, Informatics Institute, University of Amsterdam, Netherlands",
+        },
       ],
     },
     {
       title: "Keynote Speakers",
       members: [
-        { name: "Prof Dharm Singh", role: "Professor & UNESCO Chair Holder Secure on High-performance Computing for Higher Education and Research, Namibia University of Science and Technology" },
-        { name: "Dr. J. C. Bansal", role: "Associate Professor, South Asian University, New Delhi" },
-        { name: "Dr. Ashish Khanna", role: "Associate professor, CSE Dept, Maharaja Agrasen Institute of Technology" },
-        { name: "Dr. Saurabh Sinha", role: "University Of Canterbury" },
-        { name: "Dr. Maria Ganzha", role: "Associate Professor, Warsaw University of Technology (Warsaw, Poland)" },
-        { name: "Dr. Pooja Jain", role: "Professor, IIIT, Nagpur" },
-        { name: "Dr. Enrico Cambiaso", role: "Consiglio Nazionale delle Ricerche (CNR), Genoa, Italy" },
-        { name: "Dr. Anshuman Kalla", role: "Centre for Wireless Communications (CWC), University of Oulu, Finland" },
-        { name: "Dr. Majusri Misra", role: "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, University of Guelph, Canada" },
+        {
+          name: "Prof. Mike Hinchey Chair",
+          role: "UK and Ireland Section IEEE UK",
+        },
+        {
+          name: "Prof. Joao Manuel RS Tavares",
+          role: "University of Porto, Portugal",
+        },
+        {
+          name: "Prof. Milan Tuba",
+          role: "Head, AI, Singidunum University & Vice-Rector, Research at Sinergia University, Belgrade",
+        },
+        {
+          name: "Prof. Rosalina Babo",
+          role: "Professor, Polytechnic Institute of Porto, Portugal",
+        },
+        {
+          name: "Dr. Eva Tuba",
+          role: "Assistant Professor, Computer Science, Trinity University, San Antonio, TX, USA",
+        },
+        {
+          name: "Prof. Vincenzo Piuri",
+          role: "University of Milano, Italy",
+        },
+        {
+          name: "Prof. Zdzislaw Polkowski",
+          role: "Professor and Rector's Representative for International Cooperation, WSG University Bydgoszcz, Poland",
+        },
+        {
+          name: "Prof. Gabriel Kabanda",
+          role: "Adjunct Professor, Machine Learning, Woxsen University, Hyderabad",
+        },
+        {
+          name: "Dr. Vladan Devedzic",
+          role: "Professor, Department of Software Engineering, University of Belgrade, Serbia",
+        },
+        {
+          name: "Prof. Marcel Worring",
+          role: "Professor & Director, Informatics Institute, University of Amsterdam, Netherlands",
+        },
+        {
+          name: "Prof. Francesca Di Virgilio",
+          role: "Professor, University of Molise, Italy",
+        },
+        {
+          name: "Prof. Patrizia Pucci",
+          role: "Professor, Department of Mathematics and Informatics, University of Perugia, Perugia, Italy",
+        },
+        {
+          name: "Prof. Valentina Emilia Balas",
+          role: "Professor, Engineering, Aurel Vlaicu University Of Arad, Romania",
+        },
+        {
+          name: "Dr. Daniel D. Dasig Jr. PCpE",
+          role: "Head, Research Ethics Unit, De La Salle-College of Saint Benilde, Manila, Philippines",
+        },
       ],
     },
     {
       title: "Finance Committee",
       members: [
-        { name: "Dr. Ajay Maurya", role: "Professor, PIET, Jaipur" },
+        {
+          name: "Dr. Sanjay Kumar Sinha",
+          role: "Associate Professor, PIET, Jaipur",
+        },
+        {
+          name: "Mr. Nitin Phulwani",
+          role: "Associate Professor, PIET, Jaipur",
+        },
+        {
+          name: "Ms. Ashima Tiwari",
+          role: "Associate Professor, PIET, Jaipur",
+        },
       ],
     },
     {
       title: "Publicity Chair",
       members: [
-        { name: "Dr. Basant Agarwal", role: "Associate Professor, Central University Rajasthan" },
-        { name: "Dr. Priya Mathur", role: "PIET, Jaipur" },
-        { name: "Dr. Shruti Jain", role: "Professor at Jaypee University of Information Technology, Waknaghat" },
+        {
+          name: "Dr. Basant Agarwal",
+          role: "Associate Professor, Central University Rajasthan",
+        },
+        {
+          name: "Ms. Bersha Kumari",
+          role: "Associate Professor, PIET Jaipur",
+        },
+        {
+          name: "Dr. Shruti Jain",
+          role: "Professor at Jaypee University of Information Technology, Waknaghat",
+        },
       ],
     },
     {
-      title: "International Advisory Committee",
+      title: "Advisory Committee",
       members: [
-        { name: "Aleksandra Mileva", role: "Goce Delcev University STIP, Macedonia" },
-        { name: "Carlos M. Travieso", role: "University of Las Palmas de Gran Canaria, Spain" },
-        { name: "Armin Aberle", role: "SERIS National University of Singapore, Singapore" },
-        { name: "Sedat Akleylek", role: "Ondokuz Mayis University, Samsun, Turkey" },
-        { name: "Sureswaran Ramadass", role: "USM University Penang, Malaysia" },
-        { name: "Youcef Soufi", role: "University of Tabessa, Algeria" },
-        { name: "Lalit Kumar Goel", role: "NTU Nanyang, Singapore" },
-        { name: "Pinnamaneni Bhanu", role: "Kelenn Technology Antony, France" },
-        { name: "Daniele Riboni", role: "University of Cagliari, Italy" },
-        { name: "Wan Young Chung", role: "Pukyong National University Busan, South Korea" },
-        { name: "Dr. Sheng-Lung Peng", role: "Prof., National Dong Hua University, Taiwan" },
-        { name: "Dr. Ahmed Elngar", role: "Assistant Professor, Egypt" },
-      ],
-    },
-    {
-      title: "National Advisory Committee",
-      members: [
-        { name: "Dr. Rajat Rastogi", role: "Professor, IIT Roorkee" },
-        { name: "Dr. C. Periswamy", role: "MNIT, Jaipur" },
-        { name: "Dr. Paresh Vallabhbhai Virparia", role: "Professor, SPU" },
-        { name: "Dr. Rajesh Kumar", role: "MNIT, Jaipur" },
-        { name: "Dr. Arun Kumar Verma", role: "MNIT, Jaipur" },
-        { name: "Dr. Rajendra K Asthana", role: "Ex - Director, SDS Softpro (P) Ltd, NOIDA" },
-        { name: "Dr. Amit Srivastava", role: "Jaypee University, Greater Noida" },
-        { name: "Prof. Anu Gupta", role: "BITS, Pilani" },
-        { name: "Dr. Vinod Kumar Chaubey", role: "BITS, Pilani" },
-        { name: "Dr. Ravinder Agarwal", role: "Thapar University, Patiala" },
-        { name: "Dr. Namita Mittal", role: "MNIT, Jaipur" },
-        { name: "Dr. Deepak A. Padhy", role: "Guru Nanak Dev Engineering College, Ludhiana" },
-        { name: "Prof. Munish Vohra", role: "C-DAC, Mohali" },
+        {
+          name: "Saurabh Mukherjee",
+          role: "Banasthali Vidyapith",
+        },
+        {
+          name: "Dr. Shailendra Kumar Mishra",
+          role: "REVA UNIVERSITY, Bengaluru",
+        },
+        {
+          name: "Dr. Shweta Gupta",
+          role: "Woxsen University, India",
+        },
+        {
+          name: "Dr. BK Swathi Prasad",
+          role: "MS Ramaiah University of Applied Sciences",
+        },
+        {
+          name: "A K Verma",
+          role: "Western Norway University of Applied Sciences, Haugesund, Norway",
+        },
+        {
+          name: "Prashant Jamwal",
+          role: "Nazarbayev University, Kazakhstan",
+        },
+        {
+          name: "Abdel Salam Gomaa",
+          role: "Department of Mathematics, Statistics and Physics, College of Art and Sciences, Qatar University, Doha",
+        },
+        {
+          name: "Aboul Ella Hassanien",
+          role: "Cairo University, Egypt",
+        },
+        {
+          name: "Ali Gharsallah",
+          role: "Unit of Research in High Frequency Electronic Circuits and Systems, Tunis, Tunisia",
+        },
+        {
+          name: "Ali Mirjalili",
+          role: "Torrens University, Australia",
+        },
+        {
+          name: "Alok Kanti Deb",
+          role: "Indian Institute of Technology, Kharagpur",
+        },
+        {
+          name: "Anand Nayyar",
+          role: "Scientist, Graduate School, Duy Tan University, Da Nang, Viet Nam",
+        },
+        {
+          name: "Anand Paul",
+          role: "Kyungpook National University, South Korea",
+        },
+        {
+          name: "Anima Johari",
+          role: "Scientist, SERB",
+        },
+        {
+          name: "Aniruddha Chandra",
+          role: "NIT Durgapur",
+        },
+        {
+          name: "Anupam Yadav",
+          role: "National Institute of Technology, Jalandhar",
+        },
+        {
+          name: "Anuradha Ranasinghe",
+          role: "Liverpool Hope University, UK",
+        },
+        {
+          name: "Aruna Tiwari",
+          role: "Indian Institute of Technology, Indore",
+        },
+        {
+          name: "Ashvini Chaturvedi",
+          role: "NIT Suratkal",
+        },
+        {
+          name: "Atulya K. Nagar",
+          role: "Liverpool Hope University, UK",
+        },
+        {
+          name: "Ayan Kumar Bandyopadhyay",
+          role: "CEERI, Pilani",
+        },
+        {
+          name: "Carlos E. Palau",
+          role: "ETSI Telecommunication, UPV, Camino de Vera, Spain",
+        },
+        {
+          name: "Costin Badica",
+          role: "University of Craiova, Dolj, Romania",
+        },
+        {
+          name: "Dan Simon",
+          role: "Cleveland State University, USA",
+        },
+        {
+          name: "Debasish Ghose",
+          role: "IISc Bangalore",
+        },
+        {
+          name: "Deepak Garg",
+          role: "Bennett University, India",
+        },
+        {
+          name: "Dinesh Goyal",
+          role: "Poornima Institute of Engineering & Technology, Jaipur",
+        },
+        {
+          name: "Dr. Amit Singhal",
+          role: "Bennett University, Greater Noida",
+        },
+        {
+          name: "Dr. Mahfuzul H Huda",
+          role: "Saudi Electronic University",
+        },
+        {
+          name: "Dumitru Baleanu",
+          role: "Cankaya University",
+        },
+        {
+          name: "Jaisingh Thangaraj",
+          role: "Assistant Professor, IIT Dhanbad, Jharkhand",
+        },
+        {
+          name: "K. S. Nisar",
+          role: "Riyadh, Saudi Arabia",
+        },
+        {
+          name: "Kamran Iqbal",
+          role: "University of Arkansas at Little Rock, Little Rock, Arkansas, United States",
+        },
+        {
+          name: "Kuldeep Singh",
+          role: "MNIT, Jaipur",
+        },
+        {
+          name: "Kusum Deep",
+          role: "Indian Institute of Technology, Roorkee, India",
+        },
+        {
+          name: "Lalit Lumar Goyal",
+          role: "NTU Nanyang, Singapore",
+        },
+        {
+          name: "Manoj K. Shukla",
+          role: "Harcourt Butler Technical University, Kanpur",
+        },
+        {
+          name: "Manoj Thakur",
+          role: "IIT Mandi",
+        },
+        {
+          name: "Marcin Paprzycki",
+          role: "Polish Academy of Sciences, Warsaw, Poland",
+        },
+        {
+          name: "Miodrag Potkonjak",
+          role: "UCLA, Los Angeles, USA",
+        },
+        {
+          name: "Mohd Muntjir",
+          role: "Taif University, Kingdom of Saudi Arabia",
+        },
+        {
+          name: "Neetesh Purohit",
+          role: "IIIT Allahabad",
+        },
+        {
+          name: "Nilanjan Dey",
+          role: "Techno India College of Technology, India",
+        },
+        {
+          name: "Nishchal K. Verma",
+          role: "Indian Institute of Technology, Kanpur, India",
+        },
+        {
+          name: "Nooritawati Md Tahir",
+          role: "University Technology MARA (UiTM), Malaysia",
+        },
+        {
+          name: "Preetam Kumar",
+          role: "IIT, Patna",
+        },
+        {
+          name: "Prena Gaur",
+          role: "NSUT, Dwarka, New Delhi",
+        },
+        {
+          name: "Priti Srinivas Sajja",
+          role: "Sardar Patel University, Vallabh Vidyanagar, Gujarat",
+        },
+        {
+          name: "Pushpendra Singh",
+          role: "NIT Hamirpur",
+        },
+        {
+          name: "R. P. Yadav",
+          role: "MNIT Jaipur",
+        },
+        {
+          name: "R. Gangopadhyay",
+          role: "LNMIIT, Jaipur",
+        },
+        {
+          name: "Rajveen Chandel",
+          role: "NIT Hamirpur",
+        },
+        {
+          name: "S. Sundaram",
+          role: "IISc Bangalore",
+        },
+        {
+          name: "Sandeep Sancheti",
+          role: "SRM University, India",
+        },
+        {
+          name: "Sanjay Singh",
+          role: "CEERI, Pilani",
+        },
+        {
+          name: "Sanjeev Yadav",
+          role: "GWEC, Ajmer",
+        },
+        {
+          name: "Sanyog Rawat",
+          role: "Manipal University, Jaipur",
+        },
+        {
+          name: "Seemanti Saha",
+          role: "NIT Patna",
+        },
+        {
+          name: "Shashi Shekhar Jha",
+          role: "IIT Ropar",
+        },
+        {
+          name: "Sudhir Kumar",
+          role: "IIT Patna",
+        },
+        {
+          name: "Suneeta Agrawal",
+          role: "Motilal Nehru National Institute of Technology, Allahabad",
+        },
+        {
+          name: "Surajit Kundu",
+          role: "NIT, Sikkim",
+        },
+        {
+          name: "Sureswaran Ramadass",
+          role: "USM University, Penang, Malaysia",
+        },
+        {
+          name: "Sushmita Das",
+          role: "NIT, Rourkela",
+        },
+        {
+          name: "Swagatam Das",
+          role: "Indian Statistical Institute, Kolkata, India",
+        },
+        {
+          name: "T. Rama Rao",
+          role: "SRM Institute of Science & Technology, Chennai",
+        },
+        {
+          name: "Vimal Bhatia",
+          role: "IIT Indore",
+        },
+        {
+          name: "Wan Young Chung",
+          role: "Pukyong National University, Busan, South Korea",
+        },
       ],
     },
   ];
@@ -143,10 +538,14 @@ const Committees = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-red-50 mt-14 to-gray-100 text-gray-800">
       <div className="max-w-7xl mx-auto py-12 px-6">
-        <h1 className="text-4xl font-extrabold text-red-600 text-center mb-12">Committees</h1>
+        <h1 className="text-4xl font-extrabold text-red-600 text-center mb-12">
+          Committees
+        </h1>
         {committeeData.map((section, sectionIndex) => (
           <section key={sectionIndex} className="mb-16">
-            <h2 className="text-3xl font-bold text-red-500 mb-8">{section.title}</h2>
+            <h2 className="text-3xl font-bold text-red-500 mb-8">
+              {section.title}
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {section.members.map((member, memberIndex) => (
                 <div
