@@ -62,15 +62,20 @@ const Committees = () => {
           name: "Dr. Carlos M. Travieso-Gonzalez",
           role: "Professor, Signals and Communication Department, University of Las Palmas de Gran Canaria, Spain",
         },
+        {
+          name: "Dr. Amit Joshi",
+          role: "CEO, GR Foundation Ahmedabad",
+        },
+        {
+          name: "Prof. Mike Hinchey ",
+          role: "Hinchey Chair UK and Ireland Section IEEE UK",
+        },
       ],
     },
     {
       title: "Conference Co-Chair",
       members: [
-        {
-          name: "Dr. Navin Kumar Goyal",
-          role: "Associate Professor, PIET, Jaipur",
-        },
+        
         {
           name: "Dr. Balwan Shesma",
           role: "Associate Professor, PIET, Jaipur",
@@ -175,14 +180,6 @@ const Committees = () => {
         {
           name: "Prof. Milan Tuba",
           role: "Head, AI, Singidunum University & Vice-Rector, Research at Sinergia University, Belgrade",
-        },
-        {
-          name: "Dr. Eva Tuba",
-          role: "Assistant Professor, Computer Science, Trinity University, San Antonio, TX, USA",
-        },
-        {
-          name: "Prof. Marcel Worring",
-          role: "Professor & Director, Informatics Institute, University of Amsterdam, Netherlands",
         },
       ],
     },

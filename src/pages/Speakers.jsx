@@ -113,11 +113,11 @@ const Speakers = () => {
     <div className="min-h-screen mt-14 bg-gradient-to-b from-red-50 to-gray-100 text-gray-800">
       <div className="max-w-7xl mx-auto py-12 px-6">
         <h1 className="text-4xl font-extrabold text-red-600 text-center mb-12">
-          Our Esteemed Speakers
+        Proposed Keynote Speakers
         </h1>
         <section>
           <h2 className="text-3xl font-semibold mb-6 text-gray-700">
-            Proposed Keynote Speakers
+            
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {speakers.map((speaker, index) => (
