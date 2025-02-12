@@ -3,45 +3,45 @@ import React from "react";
 const Publications = () => {
   const publications = [
     {
-      title: "Research on Networked Computing in Modern Systems",
-      authors: "John Doe, Jane Smith, Alan Walker",
-      year: 2025,
-      link: "https://example.com/publication1",
-      image: "https://via.placeholder.com/200x200.png?text=Publication+1",
-      summary: "This paper explores the latest advancements in networked computing and its applications in modern systems, with a focus on scalability and performance.",
+      "title": "Advancing Sensors and Wireless Communication Systems through Artificial Intelligence: Integrating Health, IoT, and Data Analytics",
+      "authors": "Guest Editor: Dr. Anil Kumar, Co-Guest Editors: Dr. Eva Tuba, Dr. Dinesh Goyal",
+      "year": 2026,
+      "link": "",
+      "image": "/journal1.jpg",
+      "summary": "This special issue focuses on the role of artificial intelligence in advancing sensor technologies and wireless communication systems, with applications in healthcare, IoT, and data analytics."
     },
     {
-      title: "Data Analytics in Cloud Computing Environments",
-      authors: "Emily Clark, Mark Wilson",
-      year: 2023,
-      link: "https://example.com/publication2",
-      image: "https://via.placeholder.com/200x200.png?text=Publication+2",
-      summary: "A comprehensive study on the use of data analytics in cloud computing environments, emphasizing the importance of real-time data processing.",
+      "title": "AI-Driven Innovations in Computer Science and Communication Systems",
+      "authors": "Guest Editor: Dr. Anil Kumar, Co-Guest Editors: Dr. Eva Tuba, Dr. Dinesh Goyal",
+      "year": 2026,
+      "link": "N/A",
+      "image": "/journal2.jpg",
+      "summary": "This special issue explores AI-driven advancements in computer science and communication systems, highlighting emerging trends and innovative applications."
     },
-    {
-      title: "Security Protocols in IoT Networks",
-      authors: "John Doe, Mark Wilson",
-      year: 2022,
-      link: "https://example.com/publication3",
-      image: "https://via.placeholder.com/200x200.png?text=Publication+3",
-      summary: "An in-depth analysis of security protocols in IoT networks, with practical applications and recommendations for improving security measures.",
-    },
-    {
-      title: "Big Data Processing with Distributed Systems",
-      authors: "Jane Smith, Emily Clark",
-      year: 2021,
-      link: "https://example.com/publication4",
-      image: "https://via.placeholder.com/200x200.png?text=Publication+4",
-      summary: "This paper presents the challenges and solutions for big data processing using distributed systems and high-performance computing techniques.",
-    },
-    {
-      title: "AI and Machine Learning in Data Analytics",
-      authors: "Alan Walker, John Doe",
-      year: 2020,
-      link: "https://example.com/publication5",
-      image: "https://via.placeholder.com/200x200.png?text=Publication+5",
-      summary: "A review of AI and machine learning techniques applied to data analytics, focusing on model optimization and prediction accuracy.",
-    },
+    // {
+    //   title: "Security Protocols in IoT Networks",
+    //   authors: "John Doe, Mark Wilson",
+    //   year: 2022,
+    //   link: "https://example.com/publication3",
+    //   image: "https://via.placeholder.com/200x200.png?text=Publication+3",
+    //   summary: "An in-depth analysis of security protocols in IoT networks, with practical applications and recommendations for improving security measures.",
+    // },
+    // {
+    //   title: "Big Data Processing with Distributed Systems",
+    //   authors: "Jane Smith, Emily Clark",
+    //   year: 2021,
+    //   link: "https://example.com/publication4",
+    //   image: "https://via.placeholder.com/200x200.png?text=Publication+4",
+    //   summary: "This paper presents the challenges and solutions for big data processing using distributed systems and high-performance computing techniques.",
+    // },
+    // {
+    //   title: "AI and Machine Learning in Data Analytics",
+    //   authors: "Alan Walker, John Doe",
+    //   year: 2020,
+    //   link: "https://example.com/publication5",
+    //   image: "https://via.placeholder.com/200x200.png?text=Publication+5",
+    //   summary: "A review of AI and machine learning techniques applied to data analytics, focusing on model optimization and prediction accuracy.",
+    // },
   ];
 
   return (
@@ -53,9 +53,9 @@ const Publications = () => {
         <section>
           <h2 className="text-3xl font-semibold mb-6 text-gray-700">
             {/* Recent Research Papers */}
-            <h1>Will Be Announcing Soon</h1>
+            {/* <h1>Will Be Announcing Soon</h1> */}
           </h2>
-          {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
             {publications.map((publication, index) => (
               <div
                 key={index}
@@ -88,7 +88,7 @@ const Publications = () => {
                 </div>
               </div>
             ))}
-          </div> */}
+          </div>
         </section>
       </div>
     </div>
