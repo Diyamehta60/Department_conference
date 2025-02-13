@@ -40,7 +40,7 @@ const impDateData = [
   },
   {
     title: "Conference Dates",
-    date: "April 14-15, 2025",
+    date: "April 24-25, 2025",
     subtitle: "Event Dates",
     isImportant: true,
   },
