@@ -87,7 +87,7 @@ const Committees = () => {
       members: [
         {
           name: "Dr. Sanjay Kumar Sinha",
-          role: "Associate Professor, PIET, Jaipur",
+          role: " Professor, PIET, Jaipur",
         },
         {
           name: "Dr. Navin Kumar Goyal",
@@ -249,7 +249,7 @@ const Committees = () => {
       members: [
         {
           name: "Dr. Sanjay Kumar Sinha",
-          role: "Associate Professor, PIET, Jaipur",
+          role: " Professor, PIET, Jaipur",
         },
         {
           name: "Mr. Nitin Phulwani",
