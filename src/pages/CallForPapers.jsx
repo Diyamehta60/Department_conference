@@ -26,30 +26,24 @@ const CallForPapers = () => {
         <div className="bg-red-50 p-6 rounded-lg shadow-sm mb-12">
           <h2 className="text-2xl font-semibold text-red-600 mb-4">Topics of Interest</h2>
           <ul className="list-disc pl-6 text-lg text-gray-600 space-y-4">
-            <li>Data Analytics in IoT and Smart Systems</li>
-            <li>Machine Learning and Artificial Intelligence in Networking</li>
-            <li>Cloud Computing and Edge Computing</li>
-            <li>Big Data Processing and Optimization</li>
-            <li>Network Security and Cryptography</li>
-            <li>Distributed Systems and Blockchain Technologies</li>
-            <li>Data Visualization and Interactive Systems</li>
-            <li>Data Mining and Pattern Recognition</li>
-            <li>Data Analytics in IoT and Smart Systems</li>
-            <li>Machine Learning and Artificial Intelligence in Networking</li>
-            <li>Cloud Computing and Edge Computing</li>
-            <li>Big Data Processing and Optimization</li>
-            <li>Network Security and Cryptography</li>
-            <li>Distributed Systems and Blockchain Technologies</li>
-            <li>Data Visualization and Interactive Systems</li>
-            <li>Data Mining and Pattern Recognition</li>
-            <li>Network Traffic Analysis and Management</li>
-            <li>5G Networks and Beyond</li>
+            <li>Data Analytics & IoT in Smart Systems</li>
+            <li>Machine Learning & Artificial Intelligence in Networking</li>
+            <li>Cloud Computing & Edge Computing</li>
+            <li>Network Security & Cryptography</li>
+            <li>Distributed Systems & Blockchain Technologies</li>
+            <li>Data Visualization & Interactive Systems</li>
+            <li>5G Networks & Beyond</li>
             <li>Quantum Computing for Networked Systems</li>
-            <li>Smart Grids and Energy Systems</li>
-            <li>Real-Time Data Streaming and Analytics</li>
+            <li>Smart Grids & Energy Systems</li>
+            <li>Real-Time Data Streaming & Analytics</li>
             <li>Next-Generation Wireless Networks</li>
-            <li>Autonomous Systems and Networking</li>
-
+            <li>Autonomous Systems & Networking</li>
+            <li>Computer Vision & Image Processing over Network</li>
+            <li>Electronic Chip Design for Network</li>
+            <li>VLSI & Embedded System for Network Monitoring</li>
+            <li>Advanced Material Nanotechnology for Smart Systems</li>
+            <li>AI-Optimized Lightweight Materials for Aerospace & Communication</li>
+            
           </ul>
         </div>
 
