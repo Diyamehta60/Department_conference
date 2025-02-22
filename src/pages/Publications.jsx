@@ -1,95 +1,106 @@
 import React from "react";
+import { FaBook, FaRegNewspaper, FaCheckCircle } from "react-icons/fa";
 
 const Publications = () => {
-  const publications = [
-    {
-      "title": "Advancing Sensors and Wireless Communication Systems through Artificial Intelligence: Integrating Health, IoT, and Data Analytics",
-      "authors": "Guest Editor: Dr. Anil Kumar, Co-Guest Editors: Dr. Eva Tuba, Dr. Dinesh Goyal",
-      "year": 2026,
-      "link": "",
-      "image": "/journal1.jpg",
-      "summary": "This special issue focuses on the role of artificial intelligence in advancing sensor technologies and wireless communication systems, with applications in healthcare, IoT, and data analytics."
-    },
-    {
-      "title": "AI-Driven Innovations in Computer Science and Communication Systems",
-      "authors": "Guest Editor: Dr. Anil Kumar, Co-Guest Editors: Dr. Eva Tuba, Dr. Dinesh Goyal",
-      "year": 2026,
-      "link": "N/A",
-      "image": "/journal2.jpg",
-      "summary": "This special issue explores AI-driven advancements in computer science and communication systems, highlighting emerging trends and innovative applications."
-    },
-    // {
-    //   title: "Security Protocols in IoT Networks",
-    //   authors: "John Doe, Mark Wilson",
-    //   year: 2022,
-    //   link: "https://example.com/publication3",
-    //   image: "https://via.placeholder.com/200x200.png?text=Publication+3",
-    //   summary: "An in-depth analysis of security protocols in IoT networks, with practical applications and recommendations for improving security measures.",
-    // },
-    // {
-    //   title: "Big Data Processing with Distributed Systems",
-    //   authors: "Jane Smith, Emily Clark",
-    //   year: 2021,
-    //   link: "https://example.com/publication4",
-    //   image: "https://via.placeholder.com/200x200.png?text=Publication+4",
-    //   summary: "This paper presents the challenges and solutions for big data processing using distributed systems and high-performance computing techniques.",
-    // },
-    // {
-    //   title: "AI and Machine Learning in Data Analytics",
-    //   authors: "Alan Walker, John Doe",
-    //   year: 2020,
-    //   link: "https://example.com/publication5",
-    //   image: "https://via.placeholder.com/200x200.png?text=Publication+5",
-    //   summary: "A review of AI and machine learning techniques applied to data analytics, focusing on model optimization and prediction accuracy.",
-    // },
-  ];
-
   return (
-    <div className="min-h-screen mt-12 bg-gradient-to-b from-red-50 to-gray-100 text-gray-800">
-      <div className="max-w-7xl mx-auto py-12 px-6">
-        <h1 className="text-4xl font-extrabold text-red-600 text-center mb-12">
-          Featured Publications
-        </h1>
-        <section>
-          <h2 className="text-3xl font-semibold mb-6 text-gray-700">
-            {/* Recent Research Papers */}
-            {/* <h1>Will Be Announcing Soon</h1> */}
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-            {publications.map((publication, index) => (
-              <div
-                key={index}
-                className="transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-xl bg-white rounded-lg p-6 flex flex-col items-center justify-between shadow-lg"
-              >
-                <div className="mb-4 flex justify-center items-center">
-                  <img
-                    src={publication.image}
-                    alt={publication.title}
-                    className="w-40 h-40 object-cover rounded-lg border-4 border-gray-200"
-                  />
-                </div>
-                <div className="text-center">
-                  <h3 className="text-xl font-semibold text-red-700 mb-2">
-                    {publication.title}
-                  </h3>
-                  <p className="text-md font-medium text-gray-600">{publication.authors}</p>
-                  <p className="mt-2 text-gray-500">{publication.summary}</p>
-                  <div className="mt-4">
-                    <a
-                      href={publication.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-red-600 hover:text-red-800 text-lg font-semibold"
-                    >
-                      Read Full Paper
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-400 mt-2">Published in {publication.year}</p>
-                </div>
-              </div>
-            ))}
+    <div className="min-h-screen bg-white text-gray-800 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header Section */}
+        <div className="text-center mb-16">
+          <h1 className="text-4xl font-bold text-red-600 mt-12 mb-4">
+            Publication Information
+          </h1>
+          <div className="max-w-3xl space-y-4 mt-12">
+            <p className="text-lg text-gray-600 leading-relaxed text-left">
+              <FaCheckCircle className="inline-block text-red-500 mr-2" />
+              Selected, registered, and post-conference papers will be published 
+              in the proceedings of ICNCDA 2024 through the ACM International 
+              Conference Proceeding Series (Scopus Indexed).
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed text-left">
+              <FaCheckCircle className="inline-block text-red-500 mr-2" />
+              Extended versions of conference papers with at least 70% new content 
+              may be considered for publication in our partner journal.
+            </p>
           </div>
-        </section>
+        </div>
+
+        {/* Publication Channels */}
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
+          {/* ACM Proceedings Card */}
+          <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-8 border border-gray-100">
+            <div className="flex items-center mb-4">
+              <FaBook className="text-red-600 text-3xl mr-4" />
+              <h2 className="text-2xl font-bold text-gray-800">
+                ACM International Conference Proceeding Series
+              </h2>
+            </div>
+            <ul className="space-y-2 text-gray-600">
+              <li className="flex items-center">
+                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
+                Guest Editor Dr. Eva Tuba, Dr. Dinesh Goyal
+                </span>
+                Dr. Anil Kumar 
+              </li>
+              <li className="flex items-center">
+                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
+                Co-Guest Editors 
+                </span>
+                Dr. Eva Tuba, Dr. Dinesh Goyal
+              </li>
+            </ul>
+          </div>
+
+          {/* Journal Card */}
+          <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-8 border border-gray-100">
+            <div className="flex items-center mb-4">
+              <FaRegNewspaper className="text-red-600 text-3xl mr-4" />
+              <h2 className="text-2xl font-bold text-gray-800">
+                Journal of Discrete Mathematical Sciences & Cryptography
+              </h2>
+            </div>
+            <div className="space-y-4">
+            <ul className="space-y-2 text-gray-600">
+              <li className="flex items-center">
+                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
+                Guest Editor Dr. Eva Tuba, Dr. Dinesh Goyal
+                </span>
+                Dr. Anil Kumar 
+              </li>
+              <li className="flex items-center">
+                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
+                Co-Guest Editors 
+                </span>
+                Dr. Eva Tuba, Dr. Dinesh Goyal
+              </li>
+            </ul>
+              
+            </div>
+          </div>
+        </div>
+
+        {/* Additional Information */}
+        <div className="bg-red-50 rounded-xl p-8 border border-red-100">
+          <h3 className="text-2xl font-bold text-red-700 mb-4">
+            Important Notes
+          </h3>
+          <ul className="space-y-3 text-gray-700">
+            <li className="flex items-start">
+              <span className="text-red-500 mr-2">•</span>
+              All submissions must be original and unpublished work
+            </li>
+            <li className="flex items-start">
+              <span className="text-red-500 mr-2">•</span>
+              Conference proceedings will be published within 12 weeks of 
+              conference conclusion
+            </li>
+            <li className="flex items-start">
+              <span className="text-red-500 mr-2">•</span>
+              Journal publication decisions will be made through a separate 
+              peer-review process
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
