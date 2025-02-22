@@ -37,15 +37,15 @@ const Publications = () => {
             <ul className="space-y-2 text-gray-600">
               <li className="flex items-center">
                 <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
-                Guest Editor Dr. Eva Tuba, Dr. Dinesh Goyal
+                Guest Editor
                 </span>
-                Dr. Anil Kumar 
-              </li>
+                    Dr.Anil Kumar   
+                </li>
               <li className="flex items-center">
                 <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
                 Co-Guest Editors 
                 </span>
-                Dr. Eva Tuba, Dr. Dinesh Goyal
+                
               </li>
             </ul>
           </div>
@@ -55,17 +55,16 @@ const Publications = () => {
             <div className="flex items-center mb-4">
               <FaRegNewspaper className="text-red-600 text-3xl mr-4" />
               <h2 className="text-2xl font-bold text-gray-800">
-                Taru Publications
-                Bentahm Science Journals 
+                Taru Publications and Bentahm Science Journals 
               </h2>
             </div>
             <div className="space-y-4">
             <ul className="space-y-2 text-gray-600">
               <li className="flex items-center">
                 <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
-                Guest Editor Dr. Eva Tuba, Dr. Dinesh Goyal
+                Guest Editor Dr. Anil Kumar ,Dr. Dinesh Goyal,Dr. Eva Tuba
                 </span>
-                Dr. Anil Kumar 
+            
               </li>
               <li className="flex items-center">
                 <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
