@@ -37,13 +37,13 @@ const Publications = () => {
             <ul className="space-y-2 text-gray-600">
               <li className="flex items-center">
                 <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
-                Guest Editor
+              
                 </span>
-                    Dr.Anil Kumar   
+                    
                 </li>
               <li className="flex items-center">
                 <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
-                Co-Guest Editors 
+                
                 </span>
                 
               </li>
