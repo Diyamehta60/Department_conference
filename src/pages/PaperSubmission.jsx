@@ -114,7 +114,7 @@ const PaperSubmission = () => {
           <div className="flex items-center mt-4">
             <FaCalendarAlt className="text-red-600 mr-2" />
             <span className="text-lg text-gray-600">
-              Submission Deadline: <strong>March 8, 2025</strong>
+              Submission Deadline: <strong>March 25, 2025</strong>
             </span>
           </div>
         </section>
