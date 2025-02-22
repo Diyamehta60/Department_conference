@@ -41,8 +41,7 @@ function Footer() {
       <div className="flex-1 text-left px-4">
         <h2 className="font-bold mb-4">Contact Information</h2>
         <div>
-          <h2 className="text-lg font-semibold">Dr. Anil Kumar: 9896017351</h2>
-          <p className="mt-2">
+            <p className="mt-2">
             <a
               href="mailto:icncda@poornima.org"
               className="text-blue-500 underline flex items-center gap-2"
