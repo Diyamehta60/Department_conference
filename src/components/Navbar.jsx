@@ -58,7 +58,7 @@ const Navbar = () => {
             </div>
 
             <Link to="/committees" className="text-sm text-blue-900 font-medium hover:text-red-600 transition duration-300">
-              COMMITTEES
+              COMMITTEE
             </Link>
             <Link to="/publications" className="text-sm text-blue-900 font-medium hover:text-red-600 transition duration-300">
               PUBLICATIONS

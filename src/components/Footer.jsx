@@ -2,7 +2,14 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="text-center bg-red-100/40 py-6">
+    <div className="text-center bg-red-100/40 p-6 flex justify-center w-full items-center">
+      <div className="text-left px-4 flex-col items-center justify-center">
+        <h2 className='font-bold'>ICNCDA</h2>
+      <p className='w-[50%]'>The <span><a href="#" className="text-purple-600 hover:underline">
+      Microsoft CMT
+        </a>{" "}</span> service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support</p>
+      </div>
+      <div className="right w-[70%] flex flex-col items-center justify-center">
       <a
         href="#"
         className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900"
@@ -107,6 +114,7 @@ function Footer() {
           </a>
         </li>
       </ul>
+      </div>
     </div>
 
   )
