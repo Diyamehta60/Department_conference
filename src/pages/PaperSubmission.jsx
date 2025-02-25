@@ -143,8 +143,10 @@ const PaperSubmission = () => {
             submission process!
           </p>
           <a
-            href="https://bentham.manuscriptpoint.com/submit/Submission/submissionForm/6979/m" // Update with the actual submission portal link
+            href="https://cmt3.research.microsoft.com/ICNCDA2025"
             className="py-3 px-6 bg-red-600 text-white text-lg font-semibold rounded-full hover:bg-red-700 transition duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Submit Paper Now
           </a>
