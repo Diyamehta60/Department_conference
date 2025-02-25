@@ -71,7 +71,7 @@ const PaperSubmission = () => {
               </p>
             </div>
           </div> */}
-          <h1>https://cmt3.research.microsoft.com/ICNCDA2025</h1>
+          <h1>Will Be Announcing Soon</h1>
         </section>
 
         {/* Author Guidelines */}
