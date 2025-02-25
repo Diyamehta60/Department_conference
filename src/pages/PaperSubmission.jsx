@@ -81,7 +81,7 @@ const PaperSubmission = () => {
             The authors are invited to submit the Full papers of the Research/Review Papers. The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings.
           </p>
           <p className='text-gray-600 mb-4'>NOTE : Acceptance of a full-length submission is strictly based on the reviewers’ comments.</p>
-          <p className='text-gray-600 mb-4'>All submissions need to be submitted through the CMT using the link : <span className='font-bold'>Will be Announced Soon</span></p>
+          <p className='text-gray-600 mb-4'>All submissions need to be submitted through the CMT using the link : <span className='font-bold'>https://cmt3.research.microsoft.com/ICNCDA2025</span></p>
         </section>
 
         {/* Submission Guidelines */}
