@@ -37,7 +37,7 @@ function Hero() {
 
             {/* Right Logo */}
             <div className="absolute right-[15%] top-1/6 transform -translate-y-1/2">
-                <img src="/img5.png" alt="Right Logo" className="w-28 h-28" />
+                <img src="/img10.png" alt="Right Logo" className="w-28 h-28" />
             </div>
 
         </div>
