@@ -41,6 +41,26 @@ function Sponser2() {
                     </div>
 
                 </div>
+                <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
+                    <div className="flex justify-center">
+                        <img
+                            className="h-48 w-48 object-cover"
+                            src="/img6.jpg"
+                            alt="First image"
+                        />
+                    </div>
+
+                </div>
+                <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
+                    <div className="flex justify-center">
+                        <img
+                            className="h-48 w-48 object-cover"
+                            src="/img5.png"
+                            alt="First image"
+                        />
+                    </div>
+
+                </div>
             </div>
         </div>
     );

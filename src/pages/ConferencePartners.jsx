@@ -40,6 +40,18 @@ const ConferencePartners = () => {
                 Namibia University provides exceptional education and a vibrant learning community. This institution is dedicated to nurturing intellectual growth, fostering critical thinking skills, and promoting a spirit of innovation. With a wide range of academic programs, state-of-the-art facilities, and a supportive faculty, Namibia University empowers students to become future leaders and contribute positively to society. The Namibia University provides a transformative educational journey, where knowledge meets opportunity.
               </p>
             </li>
+            <li className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-red-500 mb-4">4. AIP Publishing</h3>
+              <p className="text-gray-600">
+              AIP Conference Proceedings is a well-known series published by AIP Publishing, featuring research from scientific conferences. It is indexed in Scopus and has the ISSN: 0094-243X (Print) and 1551-7616 (Online). These proceedings cover diverse areas of physics, materials science, and engineering.
+              </p>
+            </li>
+            <li className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h3 className="text-2xl font-bold text-red-500 mb-4">5. Bentham Sceince</h3>
+              <p className="text-gray-600">
+              The International Journal of Sensors, Wireless Communications, and Control (ISSN: 2210-3279) and Recent Advances in Computer Science and Communications (ISSN: 2666-2558 Print, 2666-2566 Online) are Scopus-indexed journals by Bentham Science, focusing on advanced research in wireless networks, sensors, computer science, AI, data science, and emerging technologies.
+              </p>
+            </li>
           </ul>
         </section>
       </div>
