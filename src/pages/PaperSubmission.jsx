@@ -71,7 +71,7 @@ const PaperSubmission = () => {
               </p>
             </div>
           </div> */}
-          <h1>Will Be Announcing Soon</h1>
+          <h1>AIP Conference Proceedings has been a trusted publishing partner for more than 40 years, delivering fast, affordable, and versatile publishing for maximum exposure of your meeting’s key research areas.</h1>
         </section>
 
         {/* Author Guidelines */}
@@ -91,7 +91,7 @@ const PaperSubmission = () => {
             <li>
               Use the official templates for submission: &nbsp;
               <a
-                href="https://authors.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx"
+                href="https://pubs.aip.org/aip/acp/pages/preppapers"
                 className="text-red-600 underline"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -108,8 +108,8 @@ const PaperSubmission = () => {
                 LaTeX Template
               </a>
             </li>
-            <li>Maximum paper length: 6 pages.</li>
-            <li>Ensure a similarity score below 10%.</li>
+            <li>It is advised that page lenght should not be greater than 10 pages</li>
+            <li>Ensure a similarity score below or equla to 10%.</li>
           </ul>
           <div className="flex items-center mt-4">
             <FaCalendarAlt className="text-red-600 mr-2" />
@@ -151,6 +151,22 @@ const PaperSubmission = () => {
             Submit Paper Now
           </a>
         </div>
+        {/* Reviewer Section */}
+      <div className="text-center mt-16 pt-12 border-t border-gray-200">
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Do You Want to Be a Reviewer?</h2>
+        <p className="text-lg text-gray-600 mb-6">
+          Join our team of reviewers for ICNCDA-2025. Share your expertise and help shape the future of research in this
+          field!
+        </p>
+        <a
+          href="https://tinyurl.com/ReviewFormICNCDA" // Replace with your actual reviewer form URL
+          className="py-3 px-6 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-700 transition duration-300"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Apply as Reviewers
+        </a>
+      </div>
       </div>
     </div>
   );

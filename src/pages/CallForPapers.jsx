@@ -103,7 +103,7 @@ const CallForPapers = () => {
             analytics.
           </p>
           <a
-            href="/submit-paper" // Link to your actual paper submission portal
+            href="https://cmt3.research.microsoft.com/ICNCDA2025" // Link to your actual paper submission portal
             className="inline-block py-3 px-6 bg-red-600 text-white text-lg font-semibold rounded-full hover:bg-red-700 transition duration-300"
           >
             Submit Paper Now
