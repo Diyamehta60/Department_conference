@@ -28,16 +28,17 @@ const Registration = () => {
             </thead>
             <tbody>
               {[
-                ["Faculty Member (International Professional Membership)", "INR 12,000", "INR 13,000"],
-                ["Faculty (International Professional Membership) With International co-Author", "INR 10,000", "INR 11,000"],
-                ["Faculty International Author and Member (International Professional Membership)", "$110", "$130"],
                 ["Faculty Non-Member (International Professional Membership)", "INR 13,000", "INR 14,000"],
+                ["Faculty Member (International Professional Membership)", "INR 12,000", "INR 13,000"],
                 ["Faculty Non-Member (International Professional Membership) with International co-Author", "INR 11,000", "INR 12,000"],
+                ["Faculty (International Professional Membership) With International co-Author", "INR 10,000", "INR 11,000"],
                 ["International Author Non-Member (International Professional Membership)", "$150", "$200"],
+                ["Faculty International Author and Member (International Professional Membership)", "$110", "$130"],
                 ["Corporate/Industry Professional", "INR 12,000", "INR 13,000"],
-                ["Ph.D Student", "INR 9,000", "INR 9,500"],
+                ["Ph.D Student", "INR 11,000", "INR 12,000"],
                 ["PG/UG Student", "INR 7,500", "INR 8,500"],
-                ["Attendee", "INR 1,000", "INR 2,000"],
+                ["Attendee", "INR 2,000", "INR 3,000"],              
+               
               ].map(([category, earlyBird, regular], index) => (
                 <tr
                   key={index}
@@ -97,7 +98,7 @@ const Registration = () => {
             Ready to Register?
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Secure your spot at ICNCDA-2025 by registering now! Don’t miss the chance to be part of this global conference.
+            Upon Approval from Review Process Ater Submission of your paper through Microsoft CMT ,Secure your spot at ICNCDA-2025 by registering now! Don’t miss the chance to be part of this global conference.
           </p>
           <a
             href="/registration-form" // Link to your actual registration form

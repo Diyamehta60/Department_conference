@@ -13,8 +13,7 @@ const Publications = () => {
           <div className="max-w-3xl space-y-4 mt-12">
             <p className="text-lg text-gray-600 leading-relaxed text-left">
               <FaCheckCircle className="inline-block text-red-500 mr-2" />
-              Selected, registered, and post-conference papers will be published 
-              in Proposed Procedings*
+              Selected, registered, and post-conference papers will be published in AIP Conference Procedings*
             </p>
             <p className="text-lg text-gray-600 leading-relaxed text-left">
               <FaCheckCircle className="inline-block text-red-500 mr-2" />
@@ -31,7 +30,7 @@ const Publications = () => {
             <div className="flex items-center mb-4">
               <FaBook className="text-red-600 text-3xl mr-4" />
               <h2 className="text-2xl font-bold text-gray-800">
-              Proceeding Series*
+              AIP Conference Proceeding Series
               </h2>
             </div>
             <ul className="space-y-2 text-gray-600">
