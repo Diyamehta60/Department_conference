@@ -164,7 +164,7 @@ const PaperSubmission = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Apply as Reviewers
+          Apply as Reviewer
         </a>
       </div>
       </div>
