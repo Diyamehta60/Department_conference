@@ -23,7 +23,7 @@ const CallForPapers = () => {
           <p className="text-lg text-gray-600">
           📢 Invitation to Serve as a Special Session Chair/Co-Session Chair – ICNCDA 2025 🚀:
           🎯 Requirement: To be a Special Session Chair/Co-Session Chair, you must submit a minimum of 10 papers to a specific track via the Paper Call for Submission link.
-              📩 Apply Now: https://tinyurl.com/SessChairCoSession-ChairICNCDA
+              <a href ="https://tinyurl.com/SessChairCoSession-ChairICNCDA" target="_blank" class="apply-button">📩 Apply Now</a>
           </p>
         </div>
 
