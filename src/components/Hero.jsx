@@ -6,7 +6,7 @@ function Hero() {
         <div className="w-full h-screen bg-[url('/frontend.jpg')] bg-center bg-cover bg-no-repeat flex items-center justify-center">
 
             {/* Left Logo */}
-            <div className="absolute left-[1%] top-1/6 transform -translate-y-1/2">
+            <div className="absolute left-[15%] top-1/6 transform -translate-y-1/2">
                 <img src="/img10.png" alt="Left Logo" className="w-50 h-28" />
             </div>
 
@@ -37,7 +37,7 @@ function Hero() {
 
             {/* Right Logo */}
             <div className="absolute right-[15%] top-1/6 transform -translate-y-1/2">
-                <img src="/img4.png" alt="Right Logo" className="w-28 h-28" />
+                <img src="/img4.png" alt="Right Logo" className="w-50 h-28" />
             </div>
 
         </div>
