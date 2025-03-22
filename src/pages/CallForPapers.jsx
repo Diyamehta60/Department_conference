@@ -20,6 +20,11 @@ const CallForPapers = () => {
             Authors are encouraged to submit original and unpublished research papers that contribute to the theoretical and practical understanding of these
             emerging areas.
           </p>
+          <p className="text-lg text-gray-600">
+          📢 Invitation to Serve as a Special Session Chair/Co-Session Chair – ICNCDA 2025 🚀:
+          🎯 Requirement: To be a Special Session Chair/Co-Session Chair, you must submit a minimum of 10 papers to a specific track via the Paper Call for Submission link.
+              📩 Apply Now: https://tinyurl.com/SessChairCoSession-ChairICNCDA
+          </p>
         </div>
 
         {/* Topics of Interest */}
@@ -84,7 +89,7 @@ const CallForPapers = () => {
             </div>
             <div className="flex items-center">
               <FaFileAlt className="text-red-600 mr-3" />
-              <span>Use the IEEE Conference Template for formatting.</span>
+              <span>Use the AIP Conference Procedings Template for formatting.</span>
             </div>
             <div className="flex items-center">
               <FaFileAlt className="text-red-600 mr-3" />
