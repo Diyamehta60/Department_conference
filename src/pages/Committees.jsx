@@ -148,7 +148,7 @@ const Committees = () => {
         { name: "Mr. Abhishek Dadhich", role: "Assistant Professor, PIET, Jaipur" },
         { name: "Ms. Shikha Gautam", role: "Associate Professor, PIET, Jaipur" },
         { name: "Mr. Vivek Saxena", role: "Assistant Professor, PIET, Jaipur" },
-        { name: "Mr. Indra Kishor", role: "Assistant Professor, PIET, Jaipur" },f
+        { name: "Mr. Indra Kishor", role: "Assistant Professor, PIET, Jaipur" },
       ]
       
     },
