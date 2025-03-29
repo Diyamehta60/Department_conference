@@ -227,10 +227,6 @@ const Committees = () => {
       title: "Finance Committee",
       members: [
         {
-          name: "Dr. Sanjay Kumar Sinha",
-          role: " Professor, PIET, Jaipur",
-        },
-        {
           name: "Mr. Nitin Phulwani",
           role: "Associate Professor, PIET, Jaipur",
         },
@@ -303,10 +299,6 @@ const Committees = () => {
         {
           name: "Alok Kanti Deb",
           role: "Indian Institute of Technology, Kharagpur",
-        },
-        {
-          name: "Anand Nayyar",
-          role: "Scientist, Graduate School, Duy Tan University, Da Nang, Viet Nam",
         },
         {
           name: "Anand Paul",
