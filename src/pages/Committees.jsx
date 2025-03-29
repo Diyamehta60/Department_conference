@@ -63,8 +63,8 @@ const Committees = () => {
           role: "Professor, Signals and Communication Department, University of Las Palmas de Gran Canaria, Spain",
         },
         {
-          name: "Dr. Amit Joshi",
-          role: "CEO, GR Foundation Ahmedabad",
+          name: "Dr. Nischal Verma",
+          role: "Professor,IIT Kanpur",
         },
         {
           name: "Prof. Mike Hinchey ",
@@ -163,7 +163,6 @@ const Committees = () => {
         { name: "Mr. Indra Kishor", role: "Assistant Professor, PIET, Jaipur" },
         { name: "Mr. Amit Joshi", role: "Director, GR Foundation, Ahmedabad" },
         { name: "Prof. Dhiren Patel", role: "Gujarat Vidyapeeth University, Ahmedabad" },
-        { name: "Prof. Dinesh Goyal", role: "Director Engineering, PIET, Jaipur" },
         { name: "Prof. M. Hanumanthappa", role: "Professor, CS, Banglore University, Bangalore" },
         { name: "Prof. Manish Shrimali", role: "Professor, CS, Rajasthan Vidyapeeth University, Udaipur" }
       ]
