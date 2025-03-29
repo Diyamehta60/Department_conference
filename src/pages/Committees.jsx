@@ -26,10 +26,7 @@ const Committees = () => {
           name: "Prof. B.B. Gupta",
           role: "Director, Center for AI & Cyber Security, Asia University, Taichung 413, Taiwan",
         },
-        {
-          name: "Dr. Sugandha Singh",
-          role: "Dean-Faculty of Engineering and Technology and Prof - CSE(SGTU) Gurugram",
-        },
+
       ],
     },
     {
@@ -77,7 +74,7 @@ const Committees = () => {
       members: [
         
         {
-          name: "Dr. Balwan Shesma",
+          name: "Dr.Shalini Chaudhary",
           role: "Associate Professor, PIET, Jaipur",
         },
       ],
@@ -94,10 +91,6 @@ const Committees = () => {
           role: "Associate Professor, PIET, Jaipur",
         },
         {
-          name: "Dr. Shalini Choudhary",
-          role: "Associate Professor, PIET, Jaipur",
-        },
-        {
           name: "Dr. Shruti Thapar",
           role: "Associate Professor, PIET, Jaipur",
         },
@@ -107,16 +100,13 @@ const Committees = () => {
       title: "Technical Program Chair",
       members: [
         { name: "Prof. (Dr.) Atul Gonsai", role: "Professor, CS, Saurashtra University, Rajkot" },
-        { name: "Prof. (Dr.) Baldev Singh", role: "Principal, VGU, Jaipur" },
         { name: "Prof. (Dr.) Bankim Patel", role: "Director, CS, U. T. University, Baroda" },
         { name: "Prof. (Dr.) C. K. Kumbharana", role: "Professor & Head, CS, Saurashtra University, Rajkot" },
-        { name: "Prof. (Dr.) Deepshikha Bhargava", role: "Professor, CS, Amity University, Noida" },
         { name: "Prof. (Dr.) Thomas Hanne", role: "Northwestern, Switzerland" },
         { name: "Dr. Manoj Kumar", role: "Professor, Delhi Technical University, Delhi" },
         { name: "Dr. Harish Sharma", role: "Associate Professor, RTU" },
         { name: "Dr. OP Verma", role: "Professor, DTU" },
         { name: "Dr. Akash Saxena", role: "Professor, University Of Haryana" },
-        { name: "Dr. Shruti Thapar", role: "Associate Professor, PIET, Jaipur" },
         { name: "Dr. Jasdeep Kaur Dhanoa", role: "Professor, IGDTUW" },
         { name: "Dr. Monika Agrawal", role: "Associate Professor, IIT, Delhi" },
         { name: "Dr. Sandeep Gupta", role: "Associate Professor, AI & DS, PIET, Jaipur" },
@@ -138,7 +128,6 @@ const Committees = () => {
         { name: "Dr. Mukesh Gupta", role: "Professor, CSE, SKIT, Jaipur" },
         { name: "Dr. Aman Jain", role: "Professor, MAISM, Jaipur" },
         { name: "Dr. Kirti Seth", role: "Associate Professor, SOCIE, Inha University, Tashkent, Uzbekistan" },
-        { name: "Dr. Dharam Singh", role: "Namibia University of Science and Technology, Namibia" },
         { name: "Dr. Adam Belloum", role: "University of Amsterdam" },
         { name: "Dr. Ana Lucia Varbanescu", role: "University of Amsterdam" },
         { name: "Dr. Clemens Grelck", role: "University of Amsterdam" },
@@ -147,24 +136,19 @@ const Committees = () => {
         { name: "Dr. Kuo-Chang Ting", role: "Minghsin University of Science & Technology, Taiwan" },
         { name: "Dr. Cornelia Victoria Anghel Drugarin", role: "Eftimie Murgu University of Reșița, Romania" },
         { name: "Prof. Sheng-Lung Peng", role: "Professor, National Dong Hwa University, Taiwan" },
-        { name: "Prof. V.S. Dhaka", role: "Professor & Head IT, Manipal University, Jaipur" },
         { name: "Prof. Ajith Abraham", role: "Machine Intelligence Research, USA" },
-        { name: "Prof. Anoop Singh Poonia", role: "Chairman, RIET, Jaipur" },
-        { name: "Prof. Prashant Sahai Saxena", role: "Director-DE, JECRC University, Jaipur" },
         { name: "Prof. Rajveer Singh Shekhawat", role: "Former Professor, CSE, Manipal University, Jaipur" },
         { name: "Prof. S.C. Kulhari", role: "Former Professor CSE, Manipal University, Jaipur" },
         { name: "Prof. S.S Sarangdevot", role: "Vice Chancellor, JRN Rajasthan Vidyapeeth University, Udaipur" },
         { name: "Prof. Do Phuc", role: "University of Information Technology, Ho Chi Minh City, Vietnam" },
         { name: "Prof. Nhu Nguyen Gia", role: "Duy Tan University, Vietnam" },
-        { name: "Prof. Valentina Balas", role: "Auriel University, Romania" },
-        { name: "Mr. Abhishek Dadhich", role: "Assistant Professor, PIET, Jaipur" },
-        { name: "Ms. Shikha Gautam", role: "Associate Professor, PIET, Jaipur" },
-        { name: "Mr. Vivek Saxena", role: "Assistant Professor, PIET, Jaipur" },
-        { name: "Mr. Indra Kishor", role: "Assistant Professor, PIET, Jaipur" },
-        { name: "Mr. Amit Joshi", role: "Director, GR Foundation, Ahmedabad" },
         { name: "Prof. Dhiren Patel", role: "Gujarat Vidyapeeth University, Ahmedabad" },
         { name: "Prof. M. Hanumanthappa", role: "Professor, CS, Banglore University, Bangalore" },
         { name: "Prof. Manish Shrimali", role: "Professor, CS, Rajasthan Vidyapeeth University, Udaipur" }
+        { name: "Mr. Abhishek Dadhich", role: "Assistant Professor, PIET, Jaipur" },
+        { name: "Ms. Shikha Gautam", role: "Associate Professor, PIET, Jaipur" },
+        { name: "Mr. Vivek Saxena", role: "Assistant Professor, PIET, Jaipur" },
+        { name: "Mr. Indra Kishor", role: "Assistant Professor, PIET, Jaipur" },f
       ]
       
     },
@@ -204,10 +188,6 @@ const Committees = () => {
         {
           name: "Dr. Eva Tuba",
           role: "Assistant Professor, Computer Science, Trinity University, San Antonio, TX, USA",
-        },
-        {
-          name: "Prof. Vincenzo Piuri",
-          role: "University of Milano, Italy",
         },
         {
           name: "Prof. Zdzislaw Polkowski",
