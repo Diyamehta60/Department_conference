@@ -4,7 +4,8 @@ const Committees = () => {
   const committeeData = [
     {
       title: "Honorary Patron",
-      members: [
+      members: 
+      [
         {
           name: "Mr. Hari Singh",
           role: "Director (Infrastructure), Poornima Group, Jaipur",
@@ -17,7 +18,8 @@ const Committees = () => {
     },
     {
       title: "Honorary Chair",
-      members: [
+      members: 
+      [
         {
           name: "Prof. Marcin Paprzycki",
           role: "System Research Institute Polish Academy of Sciences and IBS PAN, Warsaw, Poland",
@@ -31,7 +33,8 @@ const Committees = () => {
     },
     {
       title: "General Chair",
-      members: [
+      members: 
+      [
         {
           name: "Prof. Dharam Singh",
           role: "Namibia University of Science & Tech., Namibia",
@@ -44,7 +47,8 @@ const Committees = () => {
     },
     {
       title: "Conference Chair",
-      members: [
+      members: 
+      [
         {
           name: "Dr. Dinesh Goyal",
           role: "Professor & Director, PIET, Jaipur",
@@ -54,7 +58,8 @@ const Committees = () => {
     },
     {
       title: "Steering Committee",
-      members: [
+      members: 
+      [
         {
           name: "Dr. Carlos M. Travieso-Gonzalez",
           role: "Professor, Signals and Communication Department, University of Las Palmas de Gran Canaria, Spain",
@@ -71,7 +76,8 @@ const Committees = () => {
     },
     {
       title: "Conference Co-Chair",
-      members: [
+      members: 
+      [
         
         {
           name: "Dr.Shalini Chaudhary",
@@ -81,7 +87,8 @@ const Committees = () => {
     },
     {
       title: "Organising Chair",
-      members: [
+      members: 
+      [
         {
           name: "Dr. Sanjay Kumar Sinha",
           role: " Professor, PIET, Jaipur",
