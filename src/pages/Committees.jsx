@@ -151,7 +151,7 @@ const Committees = () => {
         { name: "Prof. Nhu Nguyen Gia", role: "Duy Tan University, Vietnam" },
         { name: "Prof. Dhiren Patel", role: "Gujarat Vidyapeeth University, Ahmedabad" },
         { name: "Prof. M. Hanumanthappa", role: "Professor, CS, Banglore University, Bangalore" },
-        { name: "Prof. Manish Shrimali", role: "Professor, CS, Rajasthan Vidyapeeth University, Udaipur" }
+        { name: "Prof. Manish Shrimali", role: "Professor, CS, Rajasthan Vidyapeeth University, Udaipur" },
         { name: "Mr. Abhishek Dadhich", role: "Assistant Professor, PIET, Jaipur" },
         { name: "Ms. Shikha Gautam", role: "Associate Professor, PIET, Jaipur" },
         { name: "Mr. Vivek Saxena", role: "Assistant Professor, PIET, Jaipur" },
