@@ -4,37 +4,37 @@ import { FaStar, FaRegClock, FaRegCalendarAlt } from "react-icons/fa"; // Import
 const impDateData = [
   {
     title: "Full Paper Submission Date",
-    date: "April  10th, 2025",
+    date: "April  20th, 2025",
     subtitle: "Submission Deadline",
     isImportant: false,
   },
   {
     title: "Notification of Acceptance",
-    date: "April 15th, 2025",
+    date: "April 30th, 2025",
     subtitle: "Acceptance Notification",
     isImportant: true,
   },
   {
     title: "Revised Paper Submission",
-    date: "April 25th, 2025",
+    date: "May 2nd, 2025",
     subtitle: "Final Paper Submission",
     isImportant: false,
   },
   {
     title: "Early Bird Registration",
-    date: "April 28th, 2025",
+    date: "May 3rd, 2025",
     subtitle: "Early Registration Deadline",
     isImportant: false,
   },
   {
     title: "Late Registration",
-    date: "April 30th, 2025",
+    date: "May 15th, 2025",
     subtitle: "Late Registration Deadline",
     isImportant: false,
   },
   {
     title: "Conference Dates",
-    date: "May 04-05, 2025",
+    date: "May 23-24, 2025",
     subtitle: "Event Dates",
     isImportant: true,
   },
