@@ -59,19 +59,19 @@ const CallForPapers = () => {
           <div className="flex items-center mb-4">
             <FaCalendarAlt className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Paper Submission Deadline: March 25, 2025
+              Paper Submission Deadline: April 20, 2025
             </span>
           </div>
           <div className="flex items-center mb-4">
             <FaRegPaperPlane className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Notification of Acceptance: April 15, 2025
+              Notification of Acceptance: April 30, 2025
             </span>
           </div>
           <div className="flex items-center">
             <FaFileAlt className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Camera-Ready Submission: April 25, 2025
+              Camera-Ready Submission: May 2nd, 2025
             </span>
           </div>
         </div>
