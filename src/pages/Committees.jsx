@@ -104,12 +104,13 @@ const Committees = () => {
       ],
     },
     {
-      title: "Technical Program Chair",
+      title: "Technical Program Commitee",
       members: [
         { name: "Prof. (Dr.) Atul Gonsai", role: "Professor, CS, Saurashtra University, Rajkot" },
         { name: "Prof. (Dr.) Bankim Patel", role: "Director, CS, U. T. University, Baroda" },
         { name: "Prof. (Dr.) C. K. Kumbharana", role: "Professor & Head, CS, Saurashtra University, Rajkot" },
         { name: "Prof. (Dr.) Thomas Hanne", role: "Northwestern, Switzerland" },
+        { name: "Dr.Aryan Chaudhary", role: "Director & Chief Scientific Advisor,BioTech Sphere Research , India  | Unit of NeoNexus Healthcare Pvt Ltd" },
         { name: "Dr. Manoj Kumar", role: "Professor, Delhi Technical University, Delhi" },
         { name: "Dr. Harish Sharma", role: "Associate Professor, RTU" },
         { name: "Dr. OP Verma", role: "Professor, DTU" },
