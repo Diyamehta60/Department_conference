@@ -10,19 +10,19 @@ const impDateData = [
   },
   {
     title: "Notification of Acceptance",
-    date: "April 30th, 2025",
+    date: "May 5th, 2025",
     subtitle: "Acceptance Notification",
     isImportant: true,
   },
   {
     title: "Revised Paper Submission",
-    date: "May 2nd, 2025",
+    date: "May 7th, 2025",
     subtitle: "Final Paper Submission",
     isImportant: false,
   },
   {
     title: "Early Bird Registration",
-    date: "May 3rd, 2025",
+    date: "May 14th, 2025",
     subtitle: "Early Registration Deadline",
     isImportant: false,
   },
