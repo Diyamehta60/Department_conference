@@ -101,7 +101,7 @@ const Registration = () => {
             Upon Approval from Review Process Ater Submission of your paper through Microsoft CMT ,Secure your spot at ICNCDA-2025 by registering now! Don’t miss the chance to be part of this global conference.
           </p>
           <a
-            href="/registration-form" // Link to your actual registration form
+            href="https://forms.gle/iKFyLFouugzgpQ248"
             className="inline-block py-3 px-6 bg-red-600 text-white text-lg font-semibold rounded-full hover:bg-red-700 transition duration-300"
           >
             Register Now
