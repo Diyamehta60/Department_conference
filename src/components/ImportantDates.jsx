@@ -16,13 +16,13 @@ const impDateData = [
   },
   {
     title: "Revised Paper Submission",
-    date: "May 7th, 2025",
+    date: "May 10th, 2025",
     subtitle: "Final Paper Submission",
     isImportant: false,
   },
   {
     title: "Early Bird Registration",
-    date: "May 14th, 2025",
+    date: "May 10th, 2025",
     subtitle: "Early Registration Deadline",
     isImportant: false,
   },
