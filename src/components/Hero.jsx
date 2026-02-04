@@ -54,8 +54,8 @@ function Hero() {
 
             {/* Left Logo */}
             <div className="absolute left-[15%] top-1/6 transform -translate-y-1/2">
-                <img src="/img10.png" alt="Left Logo" className="w-50 h-28" />
-            </div>
+            <img src="/img10.png" alt="Left Logo" className="w-50 h-28" />
+            </div> 
 
             {/* NAAC Logo centered and a bit upwards */}
             <div className="absolute top-[18%] left-1/2 transform -translate-x-1/2">
@@ -89,7 +89,7 @@ function Hero() {
 
             {/* Right Logo */}
             <div className="absolute right-[2%] top-1/6 transform -translate-y-1/2">
-                <img src="/img4.png" alt="Right Logo" className="w-50 h-28" />
+                <img src="/Aip.png" alt="Right Logo" className="w-50 h-28" />
             </div>
 
         </div>
