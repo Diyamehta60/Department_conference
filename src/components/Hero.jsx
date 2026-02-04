@@ -66,7 +66,7 @@ function Hero() {
             <div className="absolute bg-red-500/40 py-4 px-8 md:top-[45%] sm:top-[60%] left-1/2 transform -translate-x-1/2 text-center rounded-lg">
                 <h1 className="font-heading text-4xl text-white font-extrabold leading-tight">Welcome to the</h1>
                 <h1 className="font-heading text-3xl text-white text-center font-light leading-tight">
-                    <span className='font-bold text-4xl text-white'>1<sup>st</sup></span>
+                    <span className='font-bold text-4xl text-white'>2<sup>nd</sup></span>
                     International Conference on Networked Computing and Data Analytics (ICNCDA-2025) 
                     (Hybrid Mode)
                 </h1>
