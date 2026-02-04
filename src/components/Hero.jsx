@@ -67,13 +67,13 @@ function Hero() {
                 <h1 className="font-heading text-4xl text-white font-extrabold leading-tight">Welcome to the</h1>
                 <h1 className="font-heading text-3xl text-white text-center font-light leading-tight">
                     <span className='font-bold text-4xl text-white'>2<sup>nd</sup></span>
-                    International Conference on Networked Computing and Data Analytics (ICNCDA-2025) 
+                    International Conference on Networked Computing and Data Analytics (ICNCDA-2026) 
                     (Hybrid Mode)
                 </h1>
                 <div className="flex justify-center items-center mt-4 text-white">
                     <FaCalendarAlt className="mr-2" />
                     <span className="font-body text-lg">
-                        23rd & 24th May, 2025
+                        14th & 15th May, 2026
                     </span>
                 </div>
                 <h2 className="font-body text-lg text-white">
