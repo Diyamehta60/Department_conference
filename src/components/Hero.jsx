@@ -88,9 +88,9 @@ function Hero() {
             </div>
 
             {/* Right Logo */}
-            <div className="absolute right-[2%] top-1/6 transform -translate-y-1/2">
+{/*              <div className="absolute right-[2%] top-1/6 transform -translate-y-1/2">
                 <img src="/Aip.png" alt="Right Logo" className="w-50 h-28" />
-            </div>
+            </div> */}
 
         </div>
     );
