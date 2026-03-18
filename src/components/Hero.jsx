@@ -73,7 +73,7 @@ function Hero() {
                 <div className="flex justify-center items-center mt-4 text-white">
                     <FaCalendarAlt className="mr-2" />
                     <span className="font-body text-lg">
-                        14th & 15th May, 2026
+                        5th & 6th August, 2026
                     </span>
                 </div>
                 <h2 className="font-body text-lg text-white">
