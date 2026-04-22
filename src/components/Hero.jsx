@@ -84,7 +84,7 @@ function Hero() {
                     <span className="font-body text-lg">
                         Poornima Institute of Engineering and Technology, Sitapura, Jaipur, Rajasthan
                     </span>
-                </div>
+                 </div>
             </div>
 
             {/* Right Logo */}
