@@ -6,7 +6,7 @@ function Footer() {
     <div className="text-center bg-red-100/40 p-6 flex flex-col md:flex-row justify-between items-start gap-8 w-full">
       {/* Left Section */}
       <div className="flex-1 text-left px-4">
-        <h2 className="font-bold mb-4">ICNCDA</h2>
+        <h2 className="font-bold mb-4">ICNCDA2026</h2>
         <p>
           The{" "}
           <a href="#" className="text-purple-600 hover:underline">
