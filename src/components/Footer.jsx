@@ -8,7 +8,7 @@ function Footer() {
       <div className="flex-1 text-left px-4">
         <h2 className="font-bold mb-4">ICNCDA2026</h2>
         <p>
-          CMT ACKNOWLEDGMENT : The Microsoft CMT service was used for managing the peer-reviewing
+          The Microsoft CMT service was used for managing the peer-reviewing
           process for this conference. This service was provided for free by
           Microsoft and they bore all expenses, including costs for Azure cloud
           services as well as for software development and support.
