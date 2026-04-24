@@ -13,7 +13,7 @@ const CallForPapers = () => {
         {/* Introduction Section */}
         <div className="text-center mb-12">
           <p className="text-lg text-gray-600 mb-6">
-            The International Conference on Networked Computing and Data Analytics (ICNCDA-2025) invites high-quality research papers on topics related to
+            The International Conference on Networked Computing and Data Analytics (ICNCDA-2026) invites high-quality research papers on topics related to
             networked computing, data analytics, and related fields.
           </p>
           <p className="text-lg text-gray-600">
