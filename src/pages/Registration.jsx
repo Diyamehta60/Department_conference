@@ -6,13 +6,13 @@ const Registration = () => {
       <div className="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-xl">
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-red-600 mb-8">
-          Registration: ICNCDA-2025
+          Registration: ICNCDA-2026
         </h1>
 
         {/* Introduction */}
         <div className="text-center mb-12">
           <p className="text-lg text-gray-600 mb-6">
-            Register now for the International Conference on Networked Computing and Data Analytics (ICNCDA-2025) to join a global community of researchers, academics, and industry professionals.
+            Register now for the International Conference on Networked Computing and Data Analytics (ICNCDA-2026) to join a global community of researchers, academics, and industry professionals.
           </p>
         </div>
 
@@ -98,7 +98,7 @@ const Registration = () => {
             Ready to Register?
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Upon Approval from Review Process Ater Submission of your paper through Microsoft CMT ,Secure your spot at ICNCDA-2025 by registering now! Don’t miss the chance to be part of this global conference.
+            Upon Approval from Review Process Ater Submission of your paper through Microsoft CMT ,Secure your spot at ICNCDA-2026 by registering now! Don’t miss the chance to be part of this global conference.
           </p>
           <a
             href="https://forms.gle/iKFyLFouugzgpQ248"

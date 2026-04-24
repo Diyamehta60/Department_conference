@@ -7,14 +7,14 @@ const PaperSubmission = () => {
       <div className="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-lg">
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-red-600 mb-8">
-          Paper Submission - ICNCDA-2025
+          Paper Submission - ICNCDA2026
         </h1>
 
         {/* Overview Section */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Why Submit Your Paper?</h2>
           <p className="text-lg text-gray-600">
-            ICNCDA-2025 offers an international platform for researchers to present their work in
+            ICNCDA-2026 offers an international platform for researchers to present their work in
             networked computing and data analytics. Be a part of this prestigious conference and
             engage with global experts in the field.
           </p>
@@ -114,7 +114,7 @@ const PaperSubmission = () => {
           <div className="flex items-center mt-4">
             <FaCalendarAlt className="text-red-600 mr-2" />
             <span className="text-lg text-gray-600">
-              Submission Deadline: <strong>April 15, 2025</strong>
+              Submission Deadline: <strong>June 25, 2026</strong>
             </span>
           </div>
         </section>
@@ -139,7 +139,7 @@ const PaperSubmission = () => {
             Ready to Submit Your Paper?
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Don’t miss this opportunity to contribute to ICNCDA-2025. Click below to start the
+            Don’t miss this opportunity to contribute to ICNCDA-2026. Click below to start the
             submission process!
           </p>
           <a
@@ -155,7 +155,7 @@ const PaperSubmission = () => {
       <div className="text-center mt-16 pt-12 border-t border-gray-200">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Do You Want to Be a Reviewer?</h2>
         <p className="text-lg text-gray-600 mb-6">
-          Join our team of reviewers for ICNCDA-2025. Share your expertise and help shape the future of research in this
+          Join our team of reviewers for ICNCDA-2026. Share your expertise and help shape the future of research in this
           field!
         </p>
         <a

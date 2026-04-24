@@ -7,7 +7,7 @@ const CallForPapers = () => {
       <div className="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-xl">
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-red-600 mb-8">
-          Call for Papers: ICNCDA-2025
+          Call for Papers: ICNCDA-2026
         </h1>
 
         {/* Introduction Section */}
@@ -21,7 +21,7 @@ const CallForPapers = () => {
             emerging areas.
           </p>
           <p className="text-lg text-gray-600">
-          📢 Invitation to Serve as a Special Session Chair/Co-Session Chair – ICNCDA 2025 🚀:
+          📢 Invitation to Serve as a Special Session Chair/Co-Session Chair – ICNCDA 2026 🚀:
           🎯 Requirement: To be a Special Session Chair/Co-Session Chair, you must submit a minimum of 10 papers to a specific track via the Paper Call for Submission link.
               <a href ="https://tinyurl.com/SessChairCoSession-ChairICNCDA" target="_blank" class="apply-button">
               📩 Apply Now</a>
@@ -59,19 +59,19 @@ const CallForPapers = () => {
           <div className="flex items-center mb-4">
             <FaCalendarAlt className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Paper Submission Deadline: April 20, 2025
+              Paper Submission Deadline: June 25, 2026
             </span>
           </div>
           <div className="flex items-center mb-4">
             <FaRegPaperPlane className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Notification of Acceptance: April 30, 2025
+              Notification of Acceptance: July 10, 2026
             </span>
           </div>
           <div className="flex items-center">
             <FaFileAlt className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Camera-Ready Submission: May 2nd, 2025
+              Camera-Ready Submission: July 25, 2026
             </span>
           </div>
         </div>
@@ -105,7 +105,7 @@ const CallForPapers = () => {
             Ready to Submit Your Paper?
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Submit your paper to ICNCDA-2025 and join leading experts from around the world to explore the latest advancements in networked computing and data
+            Submit your paper to ICNCDA-2026 and join leading experts from around the world to explore the latest advancements in networked computing and data
             analytics.
           </p>
           <a

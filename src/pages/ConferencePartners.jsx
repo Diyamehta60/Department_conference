@@ -11,7 +11,7 @@ const ConferencePartners = () => {
         <section>
           <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
           <h1 className="text-3xl font-bold text-red-500 text-center my-12">
-            Introducing with great excitement: ICNCDA 2025, in partnership with IIIT Nagpur, Asia University Taiwan, and Namibia University.
+            Introducing with great excitement: ICNCDA 2026, in partnership with IIIT Nagpur, Asia University Taiwan, and Namibia University.
           </h1>
           <p className="text-center text-lg text-gray-600 mb-12">
             “This groundbreaking event marks a new era of innovation, collaboration, and knowledge exchange. Join us as we unveil a remarkable conference experience that will shape the future of technology and academia.”
