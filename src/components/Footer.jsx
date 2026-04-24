@@ -6,12 +6,9 @@ function Footer() {
     <div className="text-center bg-red-100/40 p-6 flex flex-col md:flex-row justify-between items-start gap-8 w-full">
       {/* Left Section */}
       <div className="flex-1 text-left px-4">
-        <h2 className="font-bold mb-4">ICNCDA2026</h2>
+        <h2 className="font-bold mb-4">SECONDICNCDA2026</h2>
         <p>
-          *The Microsoft CMT service was used for managing the peer-reviewing
-          process for this conference. This service was provided for free by
-          Microsoft and they bore all expenses, including costs for Azure cloud
-          services as well as for software development and support.
+          * The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
         </p>
       </div>
 
@@ -22,7 +19,7 @@ function Footer() {
           className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900"
         >
           <img src="/clglogo.png" className="h-12 mr-3 sm:h-10" alt="ICNCDA" />
-          ICNCDA
+          
         </a>
         <span className="block text-sm text-center text-gray-500">
           © 2024-2025 ICNCDA. All Rights Reserved. 
