@@ -75,30 +75,12 @@ const Committees = () => {
       ],
     },
     {
-      title: "Conference Co-Chair",
+      title: "Organising Chair",
       members: 
       [
         
         {
           name: "Dr.Shalini Chaudhary",
-          role: "Associate Professor, PIET, Jaipur",
-        },
-      ],
-    },
-    {
-      title: "Organising Chair",
-      members: 
-      [
-        {
-          name: "Dr. Sanjay Kumar Sinha",
-          role: " Professor, PIET, Jaipur",
-        },
-        {
-          name: "Dr. Navin Kumar Goyal",
-          role: "Associate Professor, PIET, Jaipur",
-        },
-        {
-          name: "Dr. Shruti Thapar",
           role: "Associate Professor, PIET, Jaipur",
         },
       ],
