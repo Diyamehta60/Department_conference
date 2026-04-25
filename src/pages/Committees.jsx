@@ -244,7 +244,7 @@ const Committees = () => {
       ],
     },
     {
-      title: "Advisory Committee",
+      title: "Technichal Committee",
       members: [
         {
           name: "Saurabh Mukherjee",
