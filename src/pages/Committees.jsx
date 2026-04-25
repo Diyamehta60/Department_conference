@@ -86,7 +86,7 @@ const Committees = () => {
       ],
     },
     {
-      title: "Technical Program Commitee",
+      title: "Technical Program Chair",
       members: [
         { name: "Prof. (Dr.) Atul Gonsai", role: "Professor, CS, Saurashtra University, Rajkot" },
         { name: "Prof. (Dr.) Bankim Patel", role: "Director, CS, U. T. University, Baroda" },
