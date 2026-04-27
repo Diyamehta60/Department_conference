@@ -30,7 +30,7 @@ const Publications = () => {
             <div className="flex items-center mb-4">
               <FaBook className="text-red-600 text-3xl mr-4" />
               <h2 className="text-2xl font-bold text-gray-800">
-              AIP Conference Proceeding Series
+              IET Conference Proceeding Series ( Approval Pending)
               </h2>
             </div>
             <ul className="space-y-2 text-gray-600">
@@ -89,8 +89,7 @@ const Publications = () => {
             </li>
             <li className="flex items-start">
               <span className="text-red-500 mr-2">•</span>
-              Conference proceedings will be published within 12 weeks of 
-              conference conclusion
+              Authors of accepted papers will be required to sign a copyright transfer agreement
             </li>
             <li className="flex items-start">
               <span className="text-red-500 mr-2">•</span>
