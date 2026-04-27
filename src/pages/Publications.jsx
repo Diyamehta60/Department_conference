@@ -17,20 +17,11 @@ const Publications = () => {
             </p>
             <p className="text-lg text-gray-600 leading-relaxed text-left">
               <FaCheckCircle className="inline-block text-red-500 mr-2" />
-              Extended versions of conference papers with at least 70% new content 
-              may be considered for publication in our partner journal.
+               IET Conference Proceeding Series (Approval Pending)
             </p>
           </div>
         </div>
-
-        {/* Publication Details */}
-        <div className="max-w-3xl mx-auto space-y-4">
-          <p className="text-lg text-gray-600 leading-relaxed text-left">
-            <FaCheckCircle className="inline-block text-red-500 mr-2" />
-            IET Conference Proceeding Series (Approval Pending)
-          </p>
-          </div>
-      </div>
+        </div>
     </div>
   );
 };
