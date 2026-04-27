@@ -81,7 +81,7 @@ const PaperSubmission = () => {
             The authors are invited to submit the Full papers of the Research/Review Papers. The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings.
           </p>
           <p className='text-gray-600 mb-4'>NOTE : Acceptance of a full-length submission is strictly based on the reviewers’ comments.</p>
-          <p className='text-gray-600 mb-4'>All submissions need to be submitted through the CMT using the link : <span className='font-bold'>https://cmt3.research.microsoft.com/ICNCDA2025</span></p>
+          <p className='text-gray-600 mb-4'>All submissions need to be submitted through the CMT using the link : <span className='font-bold'>https://cmt3.research.microsoft.com/SECONDICNCDA2026</span></p>
         </section>
 
         {/* Submission Guidelines */}
@@ -143,7 +143,7 @@ const PaperSubmission = () => {
             submission process!
           </p>
           <a
-            href="https://cmt3.research.microsoft.com/ICNCDA2025"
+            href="https://cmt3.research.microsoft.com/SECONDICNCDA2026"
             className="py-3 px-6 bg-red-600 text-white text-lg font-semibold rounded-full hover:bg-red-700 transition duration-300"
             target="_blank"
             rel="noopener noreferrer"
