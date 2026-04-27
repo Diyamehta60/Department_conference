@@ -71,7 +71,7 @@ const PaperSubmission = () => {
               </p>
             </div>
           </div> */}
-          <h1>AIP Conference Proceedings has been a trusted publishing partner for more than 40 years, delivering fast, affordable, and versatile publishing for maximum exposure of your meeting’s key research areas.</h1>
+          <h1>Approval Pending IET Conference Proceedings.</h1>
         </section>
 
         {/* Author Guidelines */}
@@ -89,9 +89,9 @@ const PaperSubmission = () => {
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Submission Guidelines</h2>
           <ul className="list-disc pl-5 space-y-2 text-gray-600">
             <li>
-              Use the official templates for submission: &nbsp;
+              Use the official templates (Under Review) for submission: &nbsp;
               <a
-                href="https://pubs.aip.org/aip/acp/pages/preppapers"
+                href="Wait"
                 className="text-red-600 underline"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -100,7 +100,7 @@ const PaperSubmission = () => {
               </a>
               &nbsp; | &nbsp;
               <a
-                href="https://portalparts.acm.org/hippo/latex_templates/acmart-primary.zip"
+                href="Wating for Approval"
                 className="text-red-600 underline"
                 target="_blank"
                 rel="noopener noreferrer"
