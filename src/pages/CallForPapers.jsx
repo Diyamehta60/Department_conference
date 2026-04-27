@@ -90,7 +90,7 @@ const CallForPapers = () => {
             </div>
             <div className="flex items-center">
               <FaFileAlt className="text-red-600 mr-3" />
-              <span>Use the AIP Conference Procedings Template for formatting.</span>
+              <span>Use the Conference Procedings Template for formatting.</span>
             </div>
             <div className="flex items-center">
               <FaFileAlt className="text-red-600 mr-3" />
