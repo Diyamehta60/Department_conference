@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBook, FaRegNewspaper, FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
 
 const Publications = () => {
   return (
@@ -10,10 +10,10 @@ const Publications = () => {
           <h1 className="text-4xl font-bold text-red-600 mt-12 mb-4">
             Publication Information
           </h1>
-          <div className="max-w-3xl space-y-4 mt-12">
+          <div className="max-w-3xl mx-auto space-y-4 mt-12">
             <p className="text-lg text-gray-600 leading-relaxed text-left">
               <FaCheckCircle className="inline-block text-red-500 mr-2" />
-              Selected, registered, and post-conference papers will be published in AIP Conference Procedings*
+              Confrence Proceedings Approval Pending*
             </p>
             <p className="text-lg text-gray-600 leading-relaxed text-left">
               <FaCheckCircle className="inline-block text-red-500 mr-2" />
@@ -23,81 +23,13 @@ const Publications = () => {
           </div>
         </div>
 
-        {/* Publication Channels */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          {/* ACM Proceedings Card */}
-          <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-8 border border-gray-100">
-            <div className="flex items-center mb-4">
-              <FaBook className="text-red-600 text-3xl mr-4" />
-              <h2 className="text-2xl font-bold text-gray-800">
-              IET Conference Proceeding Series ( Approval Pending)
-              </h2>
-            </div>
-            <ul className="space-y-2 text-gray-600">
-              <li className="flex items-center">
-                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
-              
-                </span>
-                    
-                </li>
-              <li className="flex items-center">
-                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
-                
-                </span>
-                
-              </li>
-            </ul>
+        {/* Publication Details */}
+        <div className="max-w-3xl mx-auto space-y-4">
+          <p className="text-lg text-gray-600 leading-relaxed text-left">
+            <FaCheckCircle className="inline-block text-red-500 mr-2" />
+            IET Conference Proceeding Series (Approval Pending)
+          </p>
           </div>
-
-          {/* Journal Card */}
-          <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow p-8 border border-gray-100">
-            <div className="flex items-center mb-4">
-              <FaRegNewspaper className="text-red-600 text-3xl mr-4" />
-              <h2 className="text-2xl font-bold text-gray-800">
-                Taru Publications and Bentahm Science Journals 
-              </h2>
-            </div>
-            <div className="space-y-4">
-            <ul className="space-y-2 text-gray-600">
-              <li className="flex items-center">
-                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
-                Guest Editor Dr. Anil Kumar ,Dr. Dinesh Goyal,Dr. Eva Tuba
-                </span>
-            
-              </li>
-              <li className="flex items-center">
-                <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm mr-2">
-                Co-Guest Editors 
-                </span>
-                Dr. Eva Tuba, Dr. Dinesh Goyal
-              </li>
-            </ul>
-              
-            </div>
-          </div>
-        </div>
-
-        {/* Additional Information */}
-        <div className="bg-red-50 rounded-xl p-8 border border-red-100">
-          <h3 className="text-2xl font-bold text-red-700 mb-4">
-            Important Notes
-          </h3>
-          <ul className="space-y-3 text-gray-700">
-            <li className="flex items-start">
-              <span className="text-red-500 mr-2">•</span>
-              All submissions must be original and unpublished work
-            </li>
-            <li className="flex items-start">
-              <span className="text-red-500 mr-2">•</span>
-              Authors of accepted papers will be required to sign a copyright transfer agreement
-            </li>
-            <li className="flex items-start">
-              <span className="text-red-500 mr-2">•</span>
-              Journal publication decisions will be made through a separate 
-              peer-review process
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   );
