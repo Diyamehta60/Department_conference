@@ -5,17 +5,16 @@ import {
   FaExternalLinkAlt,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const archiveLinks = [
-  { title: "Home", path: "/" },
-  { title: "Call for Papers", path: "/call-for-papers" },
-  { title: "Paper Submission", path: "/paper-submission" },
-  { title: "Registration", path: "/registration" },
-  { title: "Committee", path: "/committees" },
-  { title: "Publications", path: "/publications" },
-  { title: "Conference Partners", path: "/conference-partners" },
-  { title: "Speakers", path: "/speakers" },
+  { title: "Home", path: "#archive-home" },
+  { title: "Call for Papers", path: "#call-for-papers" },
+  { title: "Paper Submission", path: "#paper-submission" },
+  { title: "Registration", path: "#registration" },
+  { title: "Committee", path: "#committee" },
+  { title: "Publications", path: "#publications" },
+  { title: "Conference Partners", path: "#partners" },
+  { title: "Speakers", path: "#speakers" },
 ];
 
 const importantDates = [
@@ -58,7 +57,7 @@ const partnerImages = [
 
 const ICNCDA2025 = () => {
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-800">
+    <div id="archive-home" className="min-h-screen bg-gray-100 text-gray-800">
       <section className="relative min-h-[85vh] bg-[url('/frontend.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-blue-950/60" />
         <div className="relative mx-auto flex min-h-[85vh] max-w-7xl flex-col items-center justify-center px-4 py-24 text-center text-white">
@@ -95,18 +94,18 @@ const ICNCDA2025 = () => {
           </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {archiveLinks.map((item) => (
-              <Link
+              <a
                 key={item.path}
-                to={item.path}
+                href={item.path}
                 className="border-l-4 border-red-600 bg-red-50 p-4 font-semibold text-blue-900 shadow-sm transition hover:bg-red-100 hover:text-red-700"
               >
                 {item.title}
-              </Link>
+              </a>
             ))}
           </div>
         </section>
 
-        <section className="mb-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
+        <section id="registration" className="mb-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
           <div className="bg-white p-6 shadow-md">
             <h2 className="mb-5 text-2xl font-bold text-red-600">Important Dates</h2>
             <div className="space-y-3">
@@ -144,7 +143,7 @@ const ICNCDA2025 = () => {
           </div>
         </section>
 
-        <section className="mb-12 bg-white p-6 shadow-md">
+        <section id="publications" className="mb-12 bg-white p-6 shadow-md">
           <div className="flex flex-col items-center gap-6 text-center md:flex-row md:text-left">
             <div className="flex w-full justify-center md:w-1/3">
               <img
@@ -210,7 +209,7 @@ const ICNCDA2025 = () => {
           </div>
         </section>
 
-        <section className="mb-12 bg-white p-6 shadow-md">
+        <section id="call-for-papers" className="mb-12 bg-white p-6 shadow-md">
           <h2 className="mb-5 text-2xl font-bold text-red-600">Call for Papers Archive</h2>
           <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
             {topics.map((topic) => (
@@ -229,7 +228,7 @@ const ICNCDA2025 = () => {
           </a>
         </section>
 
-        <section className="mb-12 bg-white p-6 shadow-md">
+        <section id="paper-submission" className="mb-12 bg-white p-6 shadow-md">
           <h2 className="mb-5 text-2xl font-bold text-red-600">Gallery Archive</h2>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
             {galleryImages.map((image) => (
@@ -256,7 +255,7 @@ const ICNCDA2025 = () => {
           </div>
         </section>
 
-        <section className="mb-12 bg-white p-6 shadow-md">
+        <section id="partners" className="mb-12 bg-white p-6 shadow-md">
           <h2 className="mb-5 text-2xl font-bold text-red-600">Partners and Sponsors Archive</h2>
           <div className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-6">
             {partnerImages.map((image) => (
@@ -267,7 +266,7 @@ const ICNCDA2025 = () => {
           </div>
         </section>
 
-        <section className="bg-red-50 p-6 shadow-md">
+        <section id="committee" className="mb-12 bg-red-50 p-6 shadow-md">
           <h2 className="mb-4 text-2xl font-bold text-red-600">About ICNCDA 2025</h2>
           <p className="leading-relaxed text-gray-700">
             The 1st International Conference on Networked Computing and Data Analytics
@@ -275,6 +274,13 @@ const ICNCDA2025 = () => {
             Institute of Engineering and Technology, Jaipur. The archive preserves the conference
             information, topic areas, submission resources, institutional details, and photo records
             for future reference.
+          </p>
+        </section>
+
+        <section id="speakers" className="bg-white p-6 shadow-md">
+          <h2 className="mb-4 text-2xl font-bold text-red-600">Speakers Archive</h2>
+          <p className="leading-relaxed text-gray-700">
+            ICNCDA 2025 speaker details are preserved in the archive for reference.
           </p>
         </section>
       </main>

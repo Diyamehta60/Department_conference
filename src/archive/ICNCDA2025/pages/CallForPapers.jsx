@@ -7,13 +7,13 @@ const CallForPapers = () => {
       <div className="max-w-6xl mx-auto bg-white p-8 rounded-lg shadow-xl">
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-red-600 mb-8">
-          Call for Papers: ICNCDA-2026
+          Call for Papers: ICNCDA-2025
         </h1>
 
         {/* Introduction Section */}
         <div className="text-center mb-12">
           <p className="text-lg text-gray-600 mb-6">
-            The International Conference on Networked Computing and Data Analytics (ICNCDA-2026) invites high-quality research papers on topics related to
+            The International Conference on Networked Computing and Data Analytics (ICNCDA-2025) invited high-quality research papers on topics related to
             networked computing, data analytics, and related fields.
           </p>
           <p className="text-lg text-gray-600">
@@ -21,10 +21,10 @@ const CallForPapers = () => {
             emerging areas.
           </p>
           <p className="text-lg text-gray-600">
-          📢 Invitation to Serve as a Special Session Chair/Co-Session Chair – ICNCDA 2026 🚀:
+          Invitation to Serve as a Special Session Chair/Co-Session Chair - ICNCDA 2025:
           🎯 Requirement: To be a Special Session Chair/Co-Session Chair, you must submit a minimum of 10 papers to a specific track via the Paper Call for Submission link.
               <a href ="https://tinyurl.com/SessChairCoSession-ChairICNCDA" target="_blank" class="apply-button">
-              📩 Apply Now</a>
+              Apply Now</a>
           </p>
         </div>
 
@@ -59,19 +59,19 @@ const CallForPapers = () => {
           <div className="flex items-center mb-4">
             <FaCalendarAlt className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Paper Submission Deadline: June 25, 2026
+              Paper Submission Deadline: Closed
             </span>
           </div>
           <div className="flex items-center mb-4">
             <FaRegPaperPlane className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Notification of Acceptance: July 10, 2026
+              Notification of Acceptance: Completed
             </span>
           </div>
           <div className="flex items-center">
             <FaFileAlt className="text-red-600 mr-3" />
             <span className="text-lg text-gray-600">
-              Camera-Ready Submission: July 25, 2026
+              Camera-Ready Submission: Completed
             </span>
           </div>
         </div>
@@ -105,11 +105,11 @@ const CallForPapers = () => {
             Ready to Submit Your Paper?
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Submit your paper to ICNCDA-2026 and join leading experts from around the world to explore the latest advancements in networked computing and data
+            Submit your paper to ICNCDA-2025 and join leading experts from around the world to explore the latest advancements in networked computing and data
             analytics.
           </p>
           <a
-            href="https://cmt3.research.microsoft.com/SECONDICNCDA2026" // Link to your actual paper submission portal
+            href="https://cmt3.research.microsoft.com/ICNCDA2025" // Link to your actual paper submission portal
             className="inline-block py-3 px-6 bg-red-600 text-white text-lg font-semibold rounded-full hover:bg-red-700 transition duration-300"
           >
             Submit Paper Now

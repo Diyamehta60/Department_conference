@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import CallForPapers from "./pages/CallForPapers";
 import PaperSubmission from "./pages/PaperSubmission";
@@ -13,12 +13,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ArchiveTab from "./components/ArchiveTab";
 
-function App() {
+function AppLayout() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <ArchiveTab />
-      {/* <div className="mt-12"> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/call-for-papers" element={<CallForPapers />} />
@@ -28,11 +27,18 @@ function App() {
         <Route path="/publications" element={<Publications />} />
         <Route path="/conference-partners" element={<ConferencePartners />} />
         <Route path="/speakers" element={<Speakers />} />
-        <Route path="/icncda2025" element={<ICNCDA2025 />} />
+        <Route path="/archive/2025" element={<ICNCDA2025 />} />
+        <Route path="/icncda2025/*" element={<Navigate to="/archive/2025" replace />} />
       </Routes>
-      {/* </div> */}
-
       <Footer />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppLayout />
     </BrowserRouter>
   );
 }
