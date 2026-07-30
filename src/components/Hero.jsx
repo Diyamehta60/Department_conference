@@ -73,7 +73,7 @@ function Hero() {
                 <div className="flex justify-center items-center mt-4 text-white">
                     <FaCalendarAlt className="mr-2" />
                     <span className="font-body text-lg">
-                        5th & 6th August, 2026
+                        10th & 11th September, 2026
                     </span>
                 </div>
                 <h2 className="font-body text-lg text-white">
@@ -88,9 +88,9 @@ function Hero() {
             </div>
 
             {/* Right Logo */}
-{/*              <div className="absolute right-[2%] top-1/6 transform -translate-y-1/2">
-                <img src="/Aip.png" alt="Right Logo" className="w-50 h-28" />
-            </div> */}
+            <div className="absolute right-[15%] top-1/6 transform -translate-y-1/2">
+                <img src="/gallery/logos/springer1.jpeg" alt="Springer Logo" className="w-50 h-28 object-contain" />
+            </div>
 
         </div>
     );
