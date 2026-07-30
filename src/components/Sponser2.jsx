@@ -44,19 +44,9 @@ function Sponser2() {
                 <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
                     <div className="flex justify-center">
                         <img
-                            className="h-48 w-48 object-cover"
-                            src="/img6.jpg"
-                            alt="First image"
-                        />
-                    </div>
-
-                </div>
-                <div className="my-4 flex-shrink-0 justify-center px-4 sm:my-0">
-                    <div className="flex justify-center">
-                        <img
-                            className="h-48 w-48 object-cover"
-                            src="/img5.png"
-                            alt="First image"
+                            className="h-48 w-48 rounded-full bg-white object-contain"
+                            src="/springer-logo.png"
+                            alt="Springer Logo"
                         />
                     </div>
 
