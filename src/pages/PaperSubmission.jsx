@@ -101,21 +101,12 @@ const PaperSubmission = () => {
             <li>
               Use the official templates (Under Review) for submission: &nbsp;
               <a
-                href="Wait"
+                href="/Instructions_SpringerNature_Word_Template.pdf"
                 className="text-red-600 underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Word Template
-              </a>
-              &nbsp; | &nbsp;
-              <a
-                href="Wating for Approval"
-                className="text-red-600 underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LaTeX Template
               </a>
             </li>
             <li>It is advised that page lenght should not be greater than 10 pages</li>
