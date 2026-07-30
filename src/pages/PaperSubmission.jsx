@@ -71,7 +71,7 @@ const PaperSubmission = () => {
               </p>
             </div>
           </div> */}
-          <h1>Approval Pending IET Conference Proceedings.</h1>
+          <h1>Approved from Springer STEAM-H.</h1>
         </section>
 
         {/* Author Guidelines */}
@@ -81,7 +81,17 @@ const PaperSubmission = () => {
             The authors are invited to submit the Full papers of the Research/Review Papers. The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings.
           </p>
           <p className='text-gray-600 mb-4'>NOTE : Acceptance of a full-length submission is strictly based on the reviewers’ comments.</p>
-          <p className='text-gray-600 mb-4'>All submissions need to be submitted through the CMT using the link : <span className='font-bold'>https://cmt3.research.microsoft.com/SECONDICNCDA2026</span></p>
+          <p className='text-gray-600 mb-4'>
+            All submissions need to be submitted through the CMT using the link :{' '}
+            <a
+              href="https://cmt3.research.microsoft.com/SECONDICNCDA2026"
+              className="font-bold text-red-600 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://cmt3.research.microsoft.com/SECONDICNCDA2026
+            </a>
+          </p>
         </section>
 
         {/* Submission Guidelines */}
@@ -114,7 +124,7 @@ const PaperSubmission = () => {
           <div className="flex items-center mt-4">
             <FaCalendarAlt className="text-red-600 mr-2" />
             <span className="text-lg text-gray-600">
-              Submission Deadline: <strong>June 25, 2026</strong>
+              Submission Deadline: <strong>Aug 30, 2026</strong>
             </span>
           </div>
         </section>
